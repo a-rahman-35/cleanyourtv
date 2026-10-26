@@ -1,0 +1,78 @@
+# Philips 55PUS8503/12 (TP Vision TPM171E, device PH7M_EU_5596), Europe, 2018 model
+# Android TV 8.0.0 (API 26), firmware OC build 4718, security patch 2021-01-05
+# Board TPM17XE_96, MediaTek MT5891, armeabi-v7a, 1.9 GB RAM
+# Fingerprint: Philips/PH7M_EU_5596/PH7M_EU_5596:8.0.0/OC/4718:user/release-keys
+#
+# Apply (Linux/macOS): TV_HOST=<tv ip> tools/disable.sh examples/philips-55pus8503/debloat.txt
+# Apply (Windows):     powershell -ExecutionPolicy Bypass -File tools\disable.ps1 -TvHost <tv ip> examples\philips-55pus8503\debloat.txt
+# Undo (Linux/macOS):  TV_HOST=<tv ip> tools/restore.sh examples/philips-55pus8503/debloat.txt com.google.android.tvlauncher
+# Undo (Windows):      powershell -ExecutionPolicy Bypass -File tools\restore.ps1 -TvHost <tv ip> examples\philips-55pus8503\debloat.txt com.google.android.tvlauncher
+# Everything is DISABLED, not uninstalled. Comment out any line you want to keep.
+#
+# Stock launcher: com.google.android.tvlauncher
+# Live TV app:    org.droidtv.playtv
+#
+# Kept on purpose:
+# - Stock Google TV launcher & recommendations (com.google.android.tvlauncher,
+#   com.google.android.tvrecommendations, com.google.android.leanbacklauncher.recommendations)
+# - Voice Assistant (com.google.android.katniss, org.droidtv.amazonalexa)
+# - Chromecast / Cast Receiver (com.google.android.apps.mediashell)
+# - Phone remote & Smart View / DLNA casting (com.google.android.tv.remote.service,
+#   org.droidtv.dlna, org.droidtv.xtv, com.google.android.sss, com.google.android.sss.authbridge)
+# - Ambilight + Hue (org.droidtv.ambihuecommon, org.droidtv.alhuewizard)
+# - OTA firmware & remote updates (org.droidtv.oad, com.easy.oad, org.droidtv.nettvregistration)
+# - TV inputs, tuner, SOURCES menu, and HbbTV runtime (org.droidtv.playtv, com.mediatek.tvinput,
+#   com.mediatek.tunerservice, org.droidtv.eum, org.droidtv.nettvbrowser, org.droidtv.GlobalKey)
+# - Active apps kept on this TV: YouTube (com.google.android.youtube.tv) and
+#   Google Play Store (com.android.vending)
+
+# Batch 1: Google & Philips telemetry, ACR screen-tracking, retail demo, and Top Picks promo row
+com.google.android.feedback                       # Market Feedback Agent
+com.google.android.tvtutorials                    # Android TV first-run tutorials
+com.google.android.partnersetup                   # Google Partner Setup attribution
+com.google.android.onetimeinitializer             # Runs once at first setup
+com.google.android.syncadapters.calendar          # Google Calendar sync (no calendar app on TV)
+org.droidtv.demome                                # Retail/store demonstration mode
+org.droidtv.sticker                               # Retail e-sticker and shop banners
+org.droidtv.nettvrecommender                      # Philips NetTV / Top Picks recommendation row
+org.droidtv.usagelogger                           # Philips usage, boot stats, and remote keypress logging
+org.droidtv.candeebug                             # TP Vision "DAC" analytics uploader
+org.droidtv.gel                                   # "GEL" metrics collector inside candeebug process
+org.droidtv.tv.frameworklogger                    # Uploads reboot reasons and firmware-install records
+tv.inscape.tvclient.inscapeacr                    # Inscape ACR client (identifies on-screen content)
+
+# Batch 2: Philips NetTV app gallery & all 14 preinstalled NetTV web-app tiles
+org.droidtv.nettv.market                          # NetTV app gallery
+org.droidtv.nettvapps                             # NetTV apps manager
+org.droidtv.nettv_launcherapp                     # NetTV app launcher entry
+org.droidtv.nettvapp1814                          # ARTE
+org.droidtv.nettvapp1984                          # Dailymotion
+org.droidtv.nettvapp20004410                      # Couchplay Games
+org.droidtv.nettvapp2512                          # RTL XL
+org.droidtv.nettvapp2786                          # NPO
+org.droidtv.nettvapp3075                          # Cinetrailer
+org.droidtv.nettvapp3983                          # Rakuten TV
+org.droidtv.nettvapp4543                          # FOX Sports NL
+org.droidtv.nettvapp4932                          # Free Games by PlayWorks
+org.droidtv.nettvapp5225                          # Filmbox Live
+org.droidtv.nettvapp5265                          # meJane
+org.droidtv.nettvapp5326                          # Toon Goggles
+org.droidtv.nettvapp5447                          # NLziet
+org.droidtv.nettvapp5512                          # Fishing TV
+
+# Batch 3: Preinstalled & unused streaming/game apps
+com.tech.downloader                               # Downloader (sideload helper)
+com.netflix.ninja                                 # Netflix
+com.disney.disneyplus                             # Disney+
+com.amazon.amazonvideo.livingroom                 # Amazon Prime Video
+nl.nos.app                                        # NOS
+nl.pathe.thuis                                    # Pathe Thuis
+com.viewlift.hoichoi                              # Hoichoi
+com.google.android.youtube.tvkids                 # YouTube Kids
+com.ted.android.tv                                # TED
+com.yodo1.crossyroad                              # Crossy Road
+com.gameloft.android.HEP.GloftANHP                # Asphalt Nitro (Gameloft preload)
+com.opera.sdk.example                             # Opera TV SDK sample app
+com.google.android.music                          # Google Play Music (discontinued)
+com.google.android.videos                         # Google Play Movies & TV
+com.google.android.play.games                     # Google Play Games
