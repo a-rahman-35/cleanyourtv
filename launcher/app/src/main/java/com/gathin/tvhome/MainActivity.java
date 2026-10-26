@@ -1728,7 +1728,7 @@ public class MainActivity extends Activity implements AppAdapter.TileListener {
     private void showHero(int position, float dockTopInRoot) {
         String label = adapter.labelAt(position);
         int color = adapter.ambientColorAt(position);
-        float y = dockTopInRoot - 14 * density - 26 * density - hero.getHeight();
+        float y = dockTopInRoot - 22 * density - 26 * density - hero.getHeight();
         boolean changed = !label.contentEquals(heroName.getText());
         if (cinematic && heroArtAlpha > 0f) showHeroArt(position);
 
@@ -2549,13 +2549,18 @@ public class MainActivity extends Activity implements AppAdapter.TileListener {
             return;
         }
         RaceWeekend.Race race = s.race;
-        raceKicker.setText(race.place.isEmpty()
-                ? getString(R.string.race_kicker_no_place, race.round, race.shortName())
-                : getString(R.string.race_kicker, race.round, race.shortName(), race.place));
+        int accent = race.round == 0 ? 0xFF2BB673 : RACE_RED;
+        View bar = ((ViewGroup) raceKicker.getParent()).getChildAt(0);
+        if (bar != null && bar.getBackground() != null) bar.getBackground().setTint(accent);
+        raceKicker.setText(race.round == 0
+                ? (race.place.isEmpty() ? race.shortName() : race.shortName() + " · " + race.place)
+                : (race.place.isEmpty()
+                        ? getString(R.string.race_kicker_no_place, race.round, race.shortName())
+                        : getString(R.string.race_kicker, race.round, race.shortName(), race.place)));
 
         if (s.live != null) {
             SpannableString live = new SpannableString("\u25CF  " + getString(R.string.race_live, s.live.title(getResources())));
-            live.setSpan(new android.text.style.ForegroundColorSpan(RACE_RED), 0, 1, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+            live.setSpan(new android.text.style.ForegroundColorSpan(accent), 0, 1, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
             raceHeadline.setText(live);
         } else if (s.next != null) {
             String in = RaceWeekend.countdown(getResources(), s.untilNext);
@@ -2574,11 +2579,14 @@ public class MainActivity extends Activity implements AppAdapter.TileListener {
             RaceWeekend.Session session = race.sessions.get(i);
             if (i > 0) row.append("     ");
             int start = row.length();
-            row.append(session.shortName(getResources())).append("  ").append(when.format(session.start).toUpperCase(Locale.getDefault()));
+            row.append(session.shortName(getResources()));
+            if (!session.name.contains("|")) {
+                row.append("  ").append(when.format(session.start).toUpperCase(Locale.getDefault()));
+            }
             int color;
             switch (s.statuses.get(i)) {
                 case DONE: color = 0x47FFFFFF; break;
-                case LIVE: color = RACE_RED; break;
+                case LIVE: color = accent; break;
                 case NEXT: color = 0xFFFFFFFF; break;
                 default: color = 0x99FFFFFF;
             }

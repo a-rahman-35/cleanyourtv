@@ -1,0 +1,1944 @@
+{
+  "dock_apps": [
+    "com.google.android.youtube.tv",
+    "com.blaze.sportzfy",
+    "com.android.vending"
+  ],
+  "hidden_apps": [
+    "org.droidtv.playtv",
+    "org.droidtv.eum",
+    "org.droidtv.channels",
+    "org.droidtv.contentexplorer",
+    "org.droidtv.philipstvdrawer",
+    "org.droidtv.settings"
+  ],
+  "live_tv_package": "org.droidtv.playtv",
+  "background_color": "#05070C",
+  "wallpaper": true,
+  "cinematic_home": false,
+  "dock_glass": true,
+  "icon_only_buttons": true,
+  "app_glow": true,
+  "glow_style": "horizon",
+  "focus_overshoot": false,
+  "advanced_effects": true,
+  "show_stats": false,
+  "race_calendar": [
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 05:49 (+5)|Fajr · Adhan 05:49 (Iqama 05:54)",
+          "start": "2026-10-25T04:49:00Z"
+        },
+        {
+          "name": "SHURUQ 07:20|Shuruq (07:20)",
+          "start": "2026-10-25T06:20:00Z"
+        },
+        {
+          "name": "DHUHR 12:23 (+8)|Dhuhr · Adhan 12:23 (Iqama 12:31)",
+          "start": "2026-10-25T11:23:00Z"
+        },
+        {
+          "name": "ASR 14:54 (+8)|Asr · Adhan 14:54 (Iqama 15:02)",
+          "start": "2026-10-25T13:54:00Z"
+        },
+        {
+          "name": "MAGHRIB 17:26 (+8)|Maghrib · Adhan 17:26 (Iqama 17:34)",
+          "start": "2026-10-25T16:26:00Z"
+        },
+        {
+          "name": "ISHA 18:57 (19:00)|Isha · Adhan 18:57 (Iqama 19:00)",
+          "start": "2026-10-25T17:57:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 05:51 (+5)|Fajr · Adhan 05:51 (Iqama 05:56)",
+          "start": "2026-10-26T04:51:00Z"
+        },
+        {
+          "name": "SHURUQ 07:22|Shuruq (07:22)",
+          "start": "2026-10-26T06:22:00Z"
+        },
+        {
+          "name": "DHUHR 12:23 (+8)|Dhuhr · Adhan 12:23 (Iqama 12:31)",
+          "start": "2026-10-26T11:23:00Z"
+        },
+        {
+          "name": "ASR 14:52 (+8)|Asr · Adhan 14:52 (Iqama 15:00)",
+          "start": "2026-10-26T13:52:00Z"
+        },
+        {
+          "name": "MAGHRIB 17:24 (+8)|Maghrib · Adhan 17:24 (Iqama 17:32)",
+          "start": "2026-10-26T16:24:00Z"
+        },
+        {
+          "name": "ISHA 18:56 (19:00)|Isha · Adhan 18:56 (Iqama 19:00)",
+          "start": "2026-10-26T17:56:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 05:52 (+5)|Fajr · Adhan 05:52 (Iqama 05:57)",
+          "start": "2026-10-27T04:52:00Z"
+        },
+        {
+          "name": "SHURUQ 07:24|Shuruq (07:24)",
+          "start": "2026-10-27T06:24:00Z"
+        },
+        {
+          "name": "DHUHR 12:23 (+8)|Dhuhr · Adhan 12:23 (Iqama 12:31)",
+          "start": "2026-10-27T11:23:00Z"
+        },
+        {
+          "name": "ASR 14:51 (+8)|Asr · Adhan 14:51 (Iqama 14:59)",
+          "start": "2026-10-27T13:51:00Z"
+        },
+        {
+          "name": "MAGHRIB 17:22 (+8)|Maghrib · Adhan 17:22 (Iqama 17:30)",
+          "start": "2026-10-27T16:22:00Z"
+        },
+        {
+          "name": "ISHA 18:54 (19:00)|Isha · Adhan 18:54 (Iqama 19:00)",
+          "start": "2026-10-27T17:54:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 05:54 (+5)|Fajr · Adhan 05:54 (Iqama 05:59)",
+          "start": "2026-10-28T04:54:00Z"
+        },
+        {
+          "name": "SHURUQ 07:26|Shuruq (07:26)",
+          "start": "2026-10-28T06:26:00Z"
+        },
+        {
+          "name": "DHUHR 12:23 (+8)|Dhuhr · Adhan 12:23 (Iqama 12:31)",
+          "start": "2026-10-28T11:23:00Z"
+        },
+        {
+          "name": "ASR 14:49 (+8)|Asr · Adhan 14:49 (Iqama 14:57)",
+          "start": "2026-10-28T13:49:00Z"
+        },
+        {
+          "name": "MAGHRIB 17:20 (+8)|Maghrib · Adhan 17:20 (Iqama 17:28)",
+          "start": "2026-10-28T16:20:00Z"
+        },
+        {
+          "name": "ISHA 18:52 (19:00)|Isha · Adhan 18:52 (Iqama 19:00)",
+          "start": "2026-10-28T17:52:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 05:56 (+5)|Fajr · Adhan 05:56 (Iqama 06:01)",
+          "start": "2026-10-29T04:56:00Z"
+        },
+        {
+          "name": "SHURUQ 07:27|Shuruq (07:27)",
+          "start": "2026-10-29T06:27:00Z"
+        },
+        {
+          "name": "DHUHR 12:23 (+8)|Dhuhr · Adhan 12:23 (Iqama 12:31)",
+          "start": "2026-10-29T11:23:00Z"
+        },
+        {
+          "name": "ASR 14:48 (+8)|Asr · Adhan 14:48 (Iqama 14:56)",
+          "start": "2026-10-29T13:48:00Z"
+        },
+        {
+          "name": "MAGHRIB 17:18 (+8)|Maghrib · Adhan 17:18 (Iqama 17:26)",
+          "start": "2026-10-29T16:18:00Z"
+        },
+        {
+          "name": "ISHA 18:50 (19:00)|Isha · Adhan 18:50 (Iqama 19:00)",
+          "start": "2026-10-29T17:50:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 05:57 (+5)|Fajr · Adhan 05:57 (Iqama 06:02)",
+          "start": "2026-10-30T04:57:00Z"
+        },
+        {
+          "name": "SHURUQ 07:29|Shuruq (07:29)",
+          "start": "2026-10-30T06:29:00Z"
+        },
+        {
+          "name": "DHUHR 12:23 (+8)|Jumu'ah · Adhan 12:23 (Iqama 12:31)",
+          "start": "2026-10-30T11:23:00Z"
+        },
+        {
+          "name": "ASR 14:46 (+8)|Asr · Adhan 14:46 (Iqama 14:54)",
+          "start": "2026-10-30T13:46:00Z"
+        },
+        {
+          "name": "MAGHRIB 17:16 (+8)|Maghrib · Adhan 17:16 (Iqama 17:24)",
+          "start": "2026-10-30T16:16:00Z"
+        },
+        {
+          "name": "ISHA 18:49 (19:00)|Isha · Adhan 18:49 (Iqama 19:00)",
+          "start": "2026-10-30T17:49:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 05:59 (+5)|Fajr · Adhan 05:59 (Iqama 06:04)",
+          "start": "2026-10-31T04:59:00Z"
+        },
+        {
+          "name": "SHURUQ 07:31|Shuruq (07:31)",
+          "start": "2026-10-31T06:31:00Z"
+        },
+        {
+          "name": "DHUHR 12:23 (+8)|Dhuhr · Adhan 12:23 (Iqama 12:31)",
+          "start": "2026-10-31T11:23:00Z"
+        },
+        {
+          "name": "ASR 14:45 (+8)|Asr · Adhan 14:45 (Iqama 14:53)",
+          "start": "2026-10-31T13:45:00Z"
+        },
+        {
+          "name": "MAGHRIB 17:14 (+8)|Maghrib · Adhan 17:14 (Iqama 17:22)",
+          "start": "2026-10-31T16:14:00Z"
+        },
+        {
+          "name": "ISHA 18:47 (19:00)|Isha · Adhan 18:47 (Iqama 19:00)",
+          "start": "2026-10-31T17:47:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:00 (+5)|Fajr · Adhan 06:00 (Iqama 06:05)",
+          "start": "2026-11-01T05:00:00Z"
+        },
+        {
+          "name": "SHURUQ 07:33|Shuruq (07:33)",
+          "start": "2026-11-01T06:33:00Z"
+        },
+        {
+          "name": "DHUHR 12:23 (+8)|Dhuhr · Adhan 12:23 (Iqama 12:31)",
+          "start": "2026-11-01T11:23:00Z"
+        },
+        {
+          "name": "ASR 14:43 (+8)|Asr · Adhan 14:43 (Iqama 14:51)",
+          "start": "2026-11-01T13:43:00Z"
+        },
+        {
+          "name": "MAGHRIB 17:13 (+8)|Maghrib · Adhan 17:13 (Iqama 17:21)",
+          "start": "2026-11-01T16:13:00Z"
+        },
+        {
+          "name": "ISHA 18:45 (19:00)|Isha · Adhan 18:45 (Iqama 19:00)",
+          "start": "2026-11-01T17:45:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:02 (+5)|Fajr · Adhan 06:02 (Iqama 06:07)",
+          "start": "2026-11-02T05:02:00Z"
+        },
+        {
+          "name": "SHURUQ 07:34|Shuruq (07:34)",
+          "start": "2026-11-02T06:34:00Z"
+        },
+        {
+          "name": "DHUHR 12:23 (+8)|Dhuhr · Adhan 12:23 (Iqama 12:31)",
+          "start": "2026-11-02T11:23:00Z"
+        },
+        {
+          "name": "ASR 14:42 (+8)|Asr · Adhan 14:42 (Iqama 14:50)",
+          "start": "2026-11-02T13:42:00Z"
+        },
+        {
+          "name": "MAGHRIB 17:11 (+8)|Maghrib · Adhan 17:11 (Iqama 17:19)",
+          "start": "2026-11-02T16:11:00Z"
+        },
+        {
+          "name": "ISHA 18:44 (19:00)|Isha · Adhan 18:44 (Iqama 19:00)",
+          "start": "2026-11-02T17:44:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:03 (+5)|Fajr · Adhan 06:03 (Iqama 06:08)",
+          "start": "2026-11-03T05:03:00Z"
+        },
+        {
+          "name": "SHURUQ 07:36|Shuruq (07:36)",
+          "start": "2026-11-03T06:36:00Z"
+        },
+        {
+          "name": "DHUHR 12:23 (+8)|Dhuhr · Adhan 12:23 (Iqama 12:31)",
+          "start": "2026-11-03T11:23:00Z"
+        },
+        {
+          "name": "ASR 14:41 (+8)|Asr · Adhan 14:41 (Iqama 14:49)",
+          "start": "2026-11-03T13:41:00Z"
+        },
+        {
+          "name": "MAGHRIB 17:09 (+8)|Maghrib · Adhan 17:09 (Iqama 17:17)",
+          "start": "2026-11-03T16:09:00Z"
+        },
+        {
+          "name": "ISHA 18:42 (19:00)|Isha · Adhan 18:42 (Iqama 19:00)",
+          "start": "2026-11-03T17:42:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:05 (+5)|Fajr · Adhan 06:05 (Iqama 06:10)",
+          "start": "2026-11-04T05:05:00Z"
+        },
+        {
+          "name": "SHURUQ 07:38|Shuruq (07:38)",
+          "start": "2026-11-04T06:38:00Z"
+        },
+        {
+          "name": "DHUHR 12:23 (+8)|Dhuhr · Adhan 12:23 (Iqama 12:31)",
+          "start": "2026-11-04T11:23:00Z"
+        },
+        {
+          "name": "ASR 14:39 (+8)|Asr · Adhan 14:39 (Iqama 14:47)",
+          "start": "2026-11-04T13:39:00Z"
+        },
+        {
+          "name": "MAGHRIB 17:07 (+8)|Maghrib · Adhan 17:07 (Iqama 17:15)",
+          "start": "2026-11-04T16:07:00Z"
+        },
+        {
+          "name": "ISHA 18:41 (19:00)|Isha · Adhan 18:41 (Iqama 19:00)",
+          "start": "2026-11-04T17:41:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:06 (+5)|Fajr · Adhan 06:06 (Iqama 06:11)",
+          "start": "2026-11-05T05:06:00Z"
+        },
+        {
+          "name": "SHURUQ 07:40|Shuruq (07:40)",
+          "start": "2026-11-05T06:40:00Z"
+        },
+        {
+          "name": "DHUHR 12:23 (+8)|Dhuhr · Adhan 12:23 (Iqama 12:31)",
+          "start": "2026-11-05T11:23:00Z"
+        },
+        {
+          "name": "ASR 14:38 (+8)|Asr · Adhan 14:38 (Iqama 14:46)",
+          "start": "2026-11-05T13:38:00Z"
+        },
+        {
+          "name": "MAGHRIB 17:06 (+8)|Maghrib · Adhan 17:06 (Iqama 17:14)",
+          "start": "2026-11-05T16:06:00Z"
+        },
+        {
+          "name": "ISHA 18:39 (19:00)|Isha · Adhan 18:39 (Iqama 19:00)",
+          "start": "2026-11-05T17:39:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:08 (+5)|Fajr · Adhan 06:08 (Iqama 06:13)",
+          "start": "2026-11-06T05:08:00Z"
+        },
+        {
+          "name": "SHURUQ 07:42|Shuruq (07:42)",
+          "start": "2026-11-06T06:42:00Z"
+        },
+        {
+          "name": "DHUHR 12:23 (+8)|Jumu'ah · Adhan 12:23 (Iqama 12:31)",
+          "start": "2026-11-06T11:23:00Z"
+        },
+        {
+          "name": "ASR 14:36 (+8)|Asr · Adhan 14:36 (Iqama 14:44)",
+          "start": "2026-11-06T13:36:00Z"
+        },
+        {
+          "name": "MAGHRIB 17:04 (+8)|Maghrib · Adhan 17:04 (Iqama 17:12)",
+          "start": "2026-11-06T16:04:00Z"
+        },
+        {
+          "name": "ISHA 18:38 (19:00)|Isha · Adhan 18:38 (Iqama 19:00)",
+          "start": "2026-11-06T17:38:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:09 (+5)|Fajr · Adhan 06:09 (Iqama 06:14)",
+          "start": "2026-11-07T05:09:00Z"
+        },
+        {
+          "name": "SHURUQ 07:43|Shuruq (07:43)",
+          "start": "2026-11-07T06:43:00Z"
+        },
+        {
+          "name": "DHUHR 12:23 (+8)|Dhuhr · Adhan 12:23 (Iqama 12:31)",
+          "start": "2026-11-07T11:23:00Z"
+        },
+        {
+          "name": "ASR 14:35 (+8)|Asr · Adhan 14:35 (Iqama 14:43)",
+          "start": "2026-11-07T13:35:00Z"
+        },
+        {
+          "name": "MAGHRIB 17:02 (+8)|Maghrib · Adhan 17:02 (Iqama 17:10)",
+          "start": "2026-11-07T16:02:00Z"
+        },
+        {
+          "name": "ISHA 18:37 (19:00)|Isha · Adhan 18:37 (Iqama 19:00)",
+          "start": "2026-11-07T17:37:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:11 (+5)|Fajr · Adhan 06:11 (Iqama 06:16)",
+          "start": "2026-11-08T05:11:00Z"
+        },
+        {
+          "name": "SHURUQ 07:45|Shuruq (07:45)",
+          "start": "2026-11-08T06:45:00Z"
+        },
+        {
+          "name": "DHUHR 12:23 (+8)|Dhuhr · Adhan 12:23 (Iqama 12:31)",
+          "start": "2026-11-08T11:23:00Z"
+        },
+        {
+          "name": "ASR 14:34 (+8)|Asr · Adhan 14:34 (Iqama 14:42)",
+          "start": "2026-11-08T13:34:00Z"
+        },
+        {
+          "name": "MAGHRIB 17:01 (+8)|Maghrib · Adhan 17:01 (Iqama 17:09)",
+          "start": "2026-11-08T16:01:00Z"
+        },
+        {
+          "name": "ISHA 18:35 (19:00)|Isha · Adhan 18:35 (Iqama 19:00)",
+          "start": "2026-11-08T17:35:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:12 (+5)|Fajr · Adhan 06:12 (Iqama 06:17)",
+          "start": "2026-11-09T05:12:00Z"
+        },
+        {
+          "name": "SHURUQ 07:47|Shuruq (07:47)",
+          "start": "2026-11-09T06:47:00Z"
+        },
+        {
+          "name": "DHUHR 12:23 (+8)|Dhuhr · Adhan 12:23 (Iqama 12:31)",
+          "start": "2026-11-09T11:23:00Z"
+        },
+        {
+          "name": "ASR 14:33 (+8)|Asr · Adhan 14:33 (Iqama 14:41)",
+          "start": "2026-11-09T13:33:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:59 (+8)|Maghrib · Adhan 16:59 (Iqama 17:07)",
+          "start": "2026-11-09T15:59:00Z"
+        },
+        {
+          "name": "ISHA 18:34 (19:00)|Isha · Adhan 18:34 (Iqama 19:00)",
+          "start": "2026-11-09T17:34:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:14 (+5)|Fajr · Adhan 06:14 (Iqama 06:19)",
+          "start": "2026-11-10T05:14:00Z"
+        },
+        {
+          "name": "SHURUQ 07:49|Shuruq (07:49)",
+          "start": "2026-11-10T06:49:00Z"
+        },
+        {
+          "name": "DHUHR 12:23 (+8)|Dhuhr · Adhan 12:23 (Iqama 12:31)",
+          "start": "2026-11-10T11:23:00Z"
+        },
+        {
+          "name": "ASR 14:31 (+8)|Asr · Adhan 14:31 (Iqama 14:39)",
+          "start": "2026-11-10T13:31:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:57 (+8)|Maghrib · Adhan 16:57 (Iqama 17:05)",
+          "start": "2026-11-10T15:57:00Z"
+        },
+        {
+          "name": "ISHA 18:32 (19:00)|Isha · Adhan 18:32 (Iqama 19:00)",
+          "start": "2026-11-10T17:32:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:15 (+5)|Fajr · Adhan 06:15 (Iqama 06:20)",
+          "start": "2026-11-11T05:15:00Z"
+        },
+        {
+          "name": "SHURUQ 07:50|Shuruq (07:50)",
+          "start": "2026-11-11T06:50:00Z"
+        },
+        {
+          "name": "DHUHR 12:23 (+8)|Dhuhr · Adhan 12:23 (Iqama 12:31)",
+          "start": "2026-11-11T11:23:00Z"
+        },
+        {
+          "name": "ASR 14:30 (+8)|Asr · Adhan 14:30 (Iqama 14:38)",
+          "start": "2026-11-11T13:30:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:56 (+8)|Maghrib · Adhan 16:56 (Iqama 17:04)",
+          "start": "2026-11-11T15:56:00Z"
+        },
+        {
+          "name": "ISHA 18:31 (19:00)|Isha · Adhan 18:31 (Iqama 19:00)",
+          "start": "2026-11-11T17:31:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:17 (+5)|Fajr · Adhan 06:17 (Iqama 06:22)",
+          "start": "2026-11-12T05:17:00Z"
+        },
+        {
+          "name": "SHURUQ 07:52|Shuruq (07:52)",
+          "start": "2026-11-12T06:52:00Z"
+        },
+        {
+          "name": "DHUHR 12:23 (+8)|Dhuhr · Adhan 12:23 (Iqama 12:31)",
+          "start": "2026-11-12T11:23:00Z"
+        },
+        {
+          "name": "ASR 14:29 (+8)|Asr · Adhan 14:29 (Iqama 14:37)",
+          "start": "2026-11-12T13:29:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:54 (+8)|Maghrib · Adhan 16:54 (Iqama 17:02)",
+          "start": "2026-11-12T15:54:00Z"
+        },
+        {
+          "name": "ISHA 18:30 (19:00)|Isha · Adhan 18:30 (Iqama 19:00)",
+          "start": "2026-11-12T17:30:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:18 (+5)|Fajr · Adhan 06:18 (Iqama 06:23)",
+          "start": "2026-11-13T05:18:00Z"
+        },
+        {
+          "name": "SHURUQ 07:54|Shuruq (07:54)",
+          "start": "2026-11-13T06:54:00Z"
+        },
+        {
+          "name": "DHUHR 12:24 (+8)|Jumu'ah · Adhan 12:24 (Iqama 12:32)",
+          "start": "2026-11-13T11:24:00Z"
+        },
+        {
+          "name": "ASR 14:28 (+8)|Asr · Adhan 14:28 (Iqama 14:36)",
+          "start": "2026-11-13T13:28:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:53 (+8)|Maghrib · Adhan 16:53 (Iqama 17:01)",
+          "start": "2026-11-13T15:53:00Z"
+        },
+        {
+          "name": "ISHA 18:29 (19:00)|Isha · Adhan 18:29 (Iqama 19:00)",
+          "start": "2026-11-13T17:29:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:20 (+5)|Fajr · Adhan 06:20 (Iqama 06:25)",
+          "start": "2026-11-14T05:20:00Z"
+        },
+        {
+          "name": "SHURUQ 07:56|Shuruq (07:56)",
+          "start": "2026-11-14T06:56:00Z"
+        },
+        {
+          "name": "DHUHR 12:24 (+8)|Dhuhr · Adhan 12:24 (Iqama 12:32)",
+          "start": "2026-11-14T11:24:00Z"
+        },
+        {
+          "name": "ASR 14:27 (+8)|Asr · Adhan 14:27 (Iqama 14:35)",
+          "start": "2026-11-14T13:27:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:52 (+8)|Maghrib · Adhan 16:52 (Iqama 17:00)",
+          "start": "2026-11-14T15:52:00Z"
+        },
+        {
+          "name": "ISHA 18:28 (19:00)|Isha · Adhan 18:28 (Iqama 19:00)",
+          "start": "2026-11-14T17:28:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:21 (+5)|Fajr · Adhan 06:21 (Iqama 06:26)",
+          "start": "2026-11-15T05:21:00Z"
+        },
+        {
+          "name": "SHURUQ 07:57|Shuruq (07:57)",
+          "start": "2026-11-15T06:57:00Z"
+        },
+        {
+          "name": "DHUHR 12:24 (+8)|Dhuhr · Adhan 12:24 (Iqama 12:32)",
+          "start": "2026-11-15T11:24:00Z"
+        },
+        {
+          "name": "ASR 14:26 (+8)|Asr · Adhan 14:26 (Iqama 14:34)",
+          "start": "2026-11-15T13:26:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:50 (+8)|Maghrib · Adhan 16:50 (Iqama 16:58)",
+          "start": "2026-11-15T15:50:00Z"
+        },
+        {
+          "name": "ISHA 18:27 (19:00)|Isha · Adhan 18:27 (Iqama 19:00)",
+          "start": "2026-11-15T17:27:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:23 (+5)|Fajr · Adhan 06:23 (Iqama 06:28)",
+          "start": "2026-11-16T05:23:00Z"
+        },
+        {
+          "name": "SHURUQ 07:59|Shuruq (07:59)",
+          "start": "2026-11-16T06:59:00Z"
+        },
+        {
+          "name": "DHUHR 12:24 (+8)|Dhuhr · Adhan 12:24 (Iqama 12:32)",
+          "start": "2026-11-16T11:24:00Z"
+        },
+        {
+          "name": "ASR 14:25 (+8)|Asr · Adhan 14:25 (Iqama 14:33)",
+          "start": "2026-11-16T13:25:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:49 (+8)|Maghrib · Adhan 16:49 (Iqama 16:57)",
+          "start": "2026-11-16T15:49:00Z"
+        },
+        {
+          "name": "ISHA 18:25 (19:00)|Isha · Adhan 18:25 (Iqama 19:00)",
+          "start": "2026-11-16T17:25:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:24 (+5)|Fajr · Adhan 06:24 (Iqama 06:29)",
+          "start": "2026-11-17T05:24:00Z"
+        },
+        {
+          "name": "SHURUQ 08:01|Shuruq (08:01)",
+          "start": "2026-11-17T07:01:00Z"
+        },
+        {
+          "name": "DHUHR 12:24 (+8)|Dhuhr · Adhan 12:24 (Iqama 12:32)",
+          "start": "2026-11-17T11:24:00Z"
+        },
+        {
+          "name": "ASR 14:24 (+8)|Asr · Adhan 14:24 (Iqama 14:32)",
+          "start": "2026-11-17T13:24:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:48 (+8)|Maghrib · Adhan 16:48 (Iqama 16:56)",
+          "start": "2026-11-17T15:48:00Z"
+        },
+        {
+          "name": "ISHA 18:24 (19:00)|Isha · Adhan 18:24 (Iqama 19:00)",
+          "start": "2026-11-17T17:24:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:26 (+5)|Fajr · Adhan 06:26 (Iqama 06:31)",
+          "start": "2026-11-18T05:26:00Z"
+        },
+        {
+          "name": "SHURUQ 08:02|Shuruq (08:02)",
+          "start": "2026-11-18T07:02:00Z"
+        },
+        {
+          "name": "DHUHR 12:24 (+8)|Dhuhr · Adhan 12:24 (Iqama 12:32)",
+          "start": "2026-11-18T11:24:00Z"
+        },
+        {
+          "name": "ASR 14:23 (+8)|Asr · Adhan 14:23 (Iqama 14:31)",
+          "start": "2026-11-18T13:23:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:46 (+8)|Maghrib · Adhan 16:46 (Iqama 16:54)",
+          "start": "2026-11-18T15:46:00Z"
+        },
+        {
+          "name": "ISHA 18:23 (19:00)|Isha · Adhan 18:23 (Iqama 19:00)",
+          "start": "2026-11-18T17:23:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:27 (+5)|Fajr · Adhan 06:27 (Iqama 06:32)",
+          "start": "2026-11-19T05:27:00Z"
+        },
+        {
+          "name": "SHURUQ 08:04|Shuruq (08:04)",
+          "start": "2026-11-19T07:04:00Z"
+        },
+        {
+          "name": "DHUHR 12:25 (+8)|Dhuhr · Adhan 12:25 (Iqama 12:33)",
+          "start": "2026-11-19T11:25:00Z"
+        },
+        {
+          "name": "ASR 14:22 (+8)|Asr · Adhan 14:22 (Iqama 14:30)",
+          "start": "2026-11-19T13:22:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:45 (+8)|Maghrib · Adhan 16:45 (Iqama 16:53)",
+          "start": "2026-11-19T15:45:00Z"
+        },
+        {
+          "name": "ISHA 18:23 (19:00)|Isha · Adhan 18:23 (Iqama 19:00)",
+          "start": "2026-11-19T17:23:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:28 (+5)|Fajr · Adhan 06:28 (Iqama 06:33)",
+          "start": "2026-11-20T05:28:00Z"
+        },
+        {
+          "name": "SHURUQ 08:06|Shuruq (08:06)",
+          "start": "2026-11-20T07:06:00Z"
+        },
+        {
+          "name": "DHUHR 12:25 (+8)|Jumu'ah · Adhan 12:25 (Iqama 12:33)",
+          "start": "2026-11-20T11:25:00Z"
+        },
+        {
+          "name": "ASR 14:21 (+8)|Asr · Adhan 14:21 (Iqama 14:29)",
+          "start": "2026-11-20T13:21:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:44 (+8)|Maghrib · Adhan 16:44 (Iqama 16:52)",
+          "start": "2026-11-20T15:44:00Z"
+        },
+        {
+          "name": "ISHA 18:22 (19:00)|Isha · Adhan 18:22 (Iqama 19:00)",
+          "start": "2026-11-20T17:22:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:30 (+5)|Fajr · Adhan 06:30 (Iqama 06:35)",
+          "start": "2026-11-21T05:30:00Z"
+        },
+        {
+          "name": "SHURUQ 08:07|Shuruq (08:07)",
+          "start": "2026-11-21T07:07:00Z"
+        },
+        {
+          "name": "DHUHR 12:25 (+8)|Dhuhr · Adhan 12:25 (Iqama 12:33)",
+          "start": "2026-11-21T11:25:00Z"
+        },
+        {
+          "name": "ASR 14:20 (+8)|Asr · Adhan 14:20 (Iqama 14:28)",
+          "start": "2026-11-21T13:20:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:43 (+8)|Maghrib · Adhan 16:43 (Iqama 16:51)",
+          "start": "2026-11-21T15:43:00Z"
+        },
+        {
+          "name": "ISHA 18:21 (19:00)|Isha · Adhan 18:21 (Iqama 19:00)",
+          "start": "2026-11-21T17:21:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:31 (+5)|Fajr · Adhan 06:31 (Iqama 06:36)",
+          "start": "2026-11-22T05:31:00Z"
+        },
+        {
+          "name": "SHURUQ 08:09|Shuruq (08:09)",
+          "start": "2026-11-22T07:09:00Z"
+        },
+        {
+          "name": "DHUHR 12:25 (+8)|Dhuhr · Adhan 12:25 (Iqama 12:33)",
+          "start": "2026-11-22T11:25:00Z"
+        },
+        {
+          "name": "ASR 14:20 (+8)|Asr · Adhan 14:20 (Iqama 14:28)",
+          "start": "2026-11-22T13:20:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:42 (+8)|Maghrib · Adhan 16:42 (Iqama 16:50)",
+          "start": "2026-11-22T15:42:00Z"
+        },
+        {
+          "name": "ISHA 18:20 (19:00)|Isha · Adhan 18:20 (Iqama 19:00)",
+          "start": "2026-11-22T17:20:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:32 (+5)|Fajr · Adhan 06:32 (Iqama 06:37)",
+          "start": "2026-11-23T05:32:00Z"
+        },
+        {
+          "name": "SHURUQ 08:11|Shuruq (08:11)",
+          "start": "2026-11-23T07:11:00Z"
+        },
+        {
+          "name": "DHUHR 12:26 (+8)|Dhuhr · Adhan 12:26 (Iqama 12:34)",
+          "start": "2026-11-23T11:26:00Z"
+        },
+        {
+          "name": "ASR 14:19 (+8)|Asr · Adhan 14:19 (Iqama 14:27)",
+          "start": "2026-11-23T13:19:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:41 (+8)|Maghrib · Adhan 16:41 (Iqama 16:49)",
+          "start": "2026-11-23T15:41:00Z"
+        },
+        {
+          "name": "ISHA 18:19 (19:00)|Isha · Adhan 18:19 (Iqama 19:00)",
+          "start": "2026-11-23T17:19:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:34 (+5)|Fajr · Adhan 06:34 (Iqama 06:39)",
+          "start": "2026-11-24T05:34:00Z"
+        },
+        {
+          "name": "SHURUQ 08:12|Shuruq (08:12)",
+          "start": "2026-11-24T07:12:00Z"
+        },
+        {
+          "name": "DHUHR 12:26 (+8)|Dhuhr · Adhan 12:26 (Iqama 12:34)",
+          "start": "2026-11-24T11:26:00Z"
+        },
+        {
+          "name": "ASR 14:18 (+8)|Asr · Adhan 14:18 (Iqama 14:26)",
+          "start": "2026-11-24T13:18:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:40 (+8)|Maghrib · Adhan 16:40 (Iqama 16:48)",
+          "start": "2026-11-24T15:40:00Z"
+        },
+        {
+          "name": "ISHA 18:18 (19:00)|Isha · Adhan 18:18 (Iqama 19:00)",
+          "start": "2026-11-24T17:18:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:35 (+5)|Fajr · Adhan 06:35 (Iqama 06:40)",
+          "start": "2026-11-25T05:35:00Z"
+        },
+        {
+          "name": "SHURUQ 08:14|Shuruq (08:14)",
+          "start": "2026-11-25T07:14:00Z"
+        },
+        {
+          "name": "DHUHR 12:26 (+8)|Dhuhr · Adhan 12:26 (Iqama 12:34)",
+          "start": "2026-11-25T11:26:00Z"
+        },
+        {
+          "name": "ASR 14:17 (+8)|Asr · Adhan 14:17 (Iqama 14:25)",
+          "start": "2026-11-25T13:17:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:39 (+8)|Maghrib · Adhan 16:39 (Iqama 16:47)",
+          "start": "2026-11-25T15:39:00Z"
+        },
+        {
+          "name": "ISHA 18:18 (19:00)|Isha · Adhan 18:18 (Iqama 19:00)",
+          "start": "2026-11-25T17:18:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:36 (+5)|Fajr · Adhan 06:36 (Iqama 06:41)",
+          "start": "2026-11-26T05:36:00Z"
+        },
+        {
+          "name": "SHURUQ 08:15|Shuruq (08:15)",
+          "start": "2026-11-26T07:15:00Z"
+        },
+        {
+          "name": "DHUHR 12:27 (+8)|Dhuhr · Adhan 12:27 (Iqama 12:35)",
+          "start": "2026-11-26T11:27:00Z"
+        },
+        {
+          "name": "ASR 14:17 (+8)|Asr · Adhan 14:17 (Iqama 14:25)",
+          "start": "2026-11-26T13:17:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:38 (+8)|Maghrib · Adhan 16:38 (Iqama 16:46)",
+          "start": "2026-11-26T15:38:00Z"
+        },
+        {
+          "name": "ISHA 18:17 (19:00)|Isha · Adhan 18:17 (Iqama 19:00)",
+          "start": "2026-11-26T17:17:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:37 (+5)|Fajr · Adhan 06:37 (Iqama 06:42)",
+          "start": "2026-11-27T05:37:00Z"
+        },
+        {
+          "name": "SHURUQ 08:17|Shuruq (08:17)",
+          "start": "2026-11-27T07:17:00Z"
+        },
+        {
+          "name": "DHUHR 12:27 (+8)|Jumu'ah · Adhan 12:27 (Iqama 12:35)",
+          "start": "2026-11-27T11:27:00Z"
+        },
+        {
+          "name": "ASR 14:16 (+8)|Asr · Adhan 14:16 (Iqama 14:24)",
+          "start": "2026-11-27T13:16:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:37 (+8)|Maghrib · Adhan 16:37 (Iqama 16:45)",
+          "start": "2026-11-27T15:37:00Z"
+        },
+        {
+          "name": "ISHA 18:17 (19:00)|Isha · Adhan 18:17 (Iqama 19:00)",
+          "start": "2026-11-27T17:17:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:39 (+5)|Fajr · Adhan 06:39 (Iqama 06:44)",
+          "start": "2026-11-28T05:39:00Z"
+        },
+        {
+          "name": "SHURUQ 08:18|Shuruq (08:18)",
+          "start": "2026-11-28T07:18:00Z"
+        },
+        {
+          "name": "DHUHR 12:27 (+8)|Dhuhr · Adhan 12:27 (Iqama 12:35)",
+          "start": "2026-11-28T11:27:00Z"
+        },
+        {
+          "name": "ASR 14:16 (+8)|Asr · Adhan 14:16 (Iqama 14:24)",
+          "start": "2026-11-28T13:16:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:36 (+8)|Maghrib · Adhan 16:36 (Iqama 16:44)",
+          "start": "2026-11-28T15:36:00Z"
+        },
+        {
+          "name": "ISHA 18:16 (19:00)|Isha · Adhan 18:16 (Iqama 19:00)",
+          "start": "2026-11-28T17:16:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:40 (+5)|Fajr · Adhan 06:40 (Iqama 06:45)",
+          "start": "2026-11-29T05:40:00Z"
+        },
+        {
+          "name": "SHURUQ 08:20|Shuruq (08:20)",
+          "start": "2026-11-29T07:20:00Z"
+        },
+        {
+          "name": "DHUHR 12:28 (+8)|Dhuhr · Adhan 12:28 (Iqama 12:36)",
+          "start": "2026-11-29T11:28:00Z"
+        },
+        {
+          "name": "ASR 14:15 (+8)|Asr · Adhan 14:15 (Iqama 14:23)",
+          "start": "2026-11-29T13:15:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:35 (+8)|Maghrib · Adhan 16:35 (Iqama 16:43)",
+          "start": "2026-11-29T15:35:00Z"
+        },
+        {
+          "name": "ISHA 18:15 (19:00)|Isha · Adhan 18:15 (Iqama 19:00)",
+          "start": "2026-11-29T17:15:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:41 (+5)|Fajr · Adhan 06:41 (Iqama 06:46)",
+          "start": "2026-11-30T05:41:00Z"
+        },
+        {
+          "name": "SHURUQ 08:21|Shuruq (08:21)",
+          "start": "2026-11-30T07:21:00Z"
+        },
+        {
+          "name": "DHUHR 12:28 (+8)|Dhuhr · Adhan 12:28 (Iqama 12:36)",
+          "start": "2026-11-30T11:28:00Z"
+        },
+        {
+          "name": "ASR 14:15 (+8)|Asr · Adhan 14:15 (Iqama 14:23)",
+          "start": "2026-11-30T13:15:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:35 (+8)|Maghrib · Adhan 16:35 (Iqama 16:43)",
+          "start": "2026-11-30T15:35:00Z"
+        },
+        {
+          "name": "ISHA 18:15 (19:00)|Isha · Adhan 18:15 (Iqama 19:00)",
+          "start": "2026-11-30T17:15:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:42 (+5)|Fajr · Adhan 06:42 (Iqama 06:47)",
+          "start": "2026-12-01T05:42:00Z"
+        },
+        {
+          "name": "SHURUQ 08:23|Shuruq (08:23)",
+          "start": "2026-12-01T07:23:00Z"
+        },
+        {
+          "name": "DHUHR 12:28 (+8)|Dhuhr · Adhan 12:28 (Iqama 12:36)",
+          "start": "2026-12-01T11:28:00Z"
+        },
+        {
+          "name": "ASR 14:14 (+8)|Asr · Adhan 14:14 (Iqama 14:22)",
+          "start": "2026-12-01T13:14:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:34 (+8)|Maghrib · Adhan 16:34 (Iqama 16:42)",
+          "start": "2026-12-01T15:34:00Z"
+        },
+        {
+          "name": "ISHA 18:15 (19:00)|Isha · Adhan 18:15 (Iqama 19:00)",
+          "start": "2026-12-01T17:15:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:43 (+5)|Fajr · Adhan 06:43 (Iqama 06:48)",
+          "start": "2026-12-02T05:43:00Z"
+        },
+        {
+          "name": "SHURUQ 08:24|Shuruq (08:24)",
+          "start": "2026-12-02T07:24:00Z"
+        },
+        {
+          "name": "DHUHR 12:29 (+8)|Dhuhr · Adhan 12:29 (Iqama 12:37)",
+          "start": "2026-12-02T11:29:00Z"
+        },
+        {
+          "name": "ASR 14:14 (+8)|Asr · Adhan 14:14 (Iqama 14:22)",
+          "start": "2026-12-02T13:14:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:33 (+8)|Maghrib · Adhan 16:33 (Iqama 16:41)",
+          "start": "2026-12-02T15:33:00Z"
+        },
+        {
+          "name": "ISHA 18:14 (19:00)|Isha · Adhan 18:14 (Iqama 19:00)",
+          "start": "2026-12-02T17:14:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:44 (+5)|Fajr · Adhan 06:44 (Iqama 06:49)",
+          "start": "2026-12-03T05:44:00Z"
+        },
+        {
+          "name": "SHURUQ 08:26|Shuruq (08:26)",
+          "start": "2026-12-03T07:26:00Z"
+        },
+        {
+          "name": "DHUHR 12:29 (+8)|Dhuhr · Adhan 12:29 (Iqama 12:37)",
+          "start": "2026-12-03T11:29:00Z"
+        },
+        {
+          "name": "ASR 14:14 (+8)|Asr · Adhan 14:14 (Iqama 14:22)",
+          "start": "2026-12-03T13:14:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:33 (+8)|Maghrib · Adhan 16:33 (Iqama 16:41)",
+          "start": "2026-12-03T15:33:00Z"
+        },
+        {
+          "name": "ISHA 18:14 (19:00)|Isha · Adhan 18:14 (Iqama 19:00)",
+          "start": "2026-12-03T17:14:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:46 (+5)|Fajr · Adhan 06:46 (Iqama 06:51)",
+          "start": "2026-12-04T05:46:00Z"
+        },
+        {
+          "name": "SHURUQ 08:27|Shuruq (08:27)",
+          "start": "2026-12-04T07:27:00Z"
+        },
+        {
+          "name": "DHUHR 12:30 (+8)|Jumu'ah · Adhan 12:30 (Iqama 12:38)",
+          "start": "2026-12-04T11:30:00Z"
+        },
+        {
+          "name": "ASR 14:13 (+8)|Asr · Adhan 14:13 (Iqama 14:21)",
+          "start": "2026-12-04T13:13:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:32 (+8)|Maghrib · Adhan 16:32 (Iqama 16:40)",
+          "start": "2026-12-04T15:32:00Z"
+        },
+        {
+          "name": "ISHA 18:14 (19:00)|Isha · Adhan 18:14 (Iqama 19:00)",
+          "start": "2026-12-04T17:14:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:47 (+5)|Fajr · Adhan 06:47 (Iqama 06:52)",
+          "start": "2026-12-05T05:47:00Z"
+        },
+        {
+          "name": "SHURUQ 08:28|Shuruq (08:28)",
+          "start": "2026-12-05T07:28:00Z"
+        },
+        {
+          "name": "DHUHR 12:30 (+8)|Dhuhr · Adhan 12:30 (Iqama 12:38)",
+          "start": "2026-12-05T11:30:00Z"
+        },
+        {
+          "name": "ASR 14:13 (+8)|Asr · Adhan 14:13 (Iqama 14:21)",
+          "start": "2026-12-05T13:13:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:32 (+8)|Maghrib · Adhan 16:32 (Iqama 16:40)",
+          "start": "2026-12-05T15:32:00Z"
+        },
+        {
+          "name": "ISHA 18:13 (19:00)|Isha · Adhan 18:13 (Iqama 19:00)",
+          "start": "2026-12-05T17:13:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:48 (+5)|Fajr · Adhan 06:48 (Iqama 06:53)",
+          "start": "2026-12-06T05:48:00Z"
+        },
+        {
+          "name": "SHURUQ 08:29|Shuruq (08:29)",
+          "start": "2026-12-06T07:29:00Z"
+        },
+        {
+          "name": "DHUHR 12:30 (+8)|Dhuhr · Adhan 12:30 (Iqama 12:38)",
+          "start": "2026-12-06T11:30:00Z"
+        },
+        {
+          "name": "ASR 14:13 (+8)|Asr · Adhan 14:13 (Iqama 14:21)",
+          "start": "2026-12-06T13:13:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:32 (+8)|Maghrib · Adhan 16:32 (Iqama 16:40)",
+          "start": "2026-12-06T15:32:00Z"
+        },
+        {
+          "name": "ISHA 18:13 (19:00)|Isha · Adhan 18:13 (Iqama 19:00)",
+          "start": "2026-12-06T17:13:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:49 (+5)|Fajr · Adhan 06:49 (Iqama 06:54)",
+          "start": "2026-12-07T05:49:00Z"
+        },
+        {
+          "name": "SHURUQ 08:31|Shuruq (08:31)",
+          "start": "2026-12-07T07:31:00Z"
+        },
+        {
+          "name": "DHUHR 12:31 (+8)|Dhuhr · Adhan 12:31 (Iqama 12:39)",
+          "start": "2026-12-07T11:31:00Z"
+        },
+        {
+          "name": "ASR 14:13 (+8)|Asr · Adhan 14:13 (Iqama 14:21)",
+          "start": "2026-12-07T13:13:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:31 (+8)|Maghrib · Adhan 16:31 (Iqama 16:39)",
+          "start": "2026-12-07T15:31:00Z"
+        },
+        {
+          "name": "ISHA 18:13 (19:00)|Isha · Adhan 18:13 (Iqama 19:00)",
+          "start": "2026-12-07T17:13:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:50 (+5)|Fajr · Adhan 06:50 (Iqama 06:55)",
+          "start": "2026-12-08T05:50:00Z"
+        },
+        {
+          "name": "SHURUQ 08:32|Shuruq (08:32)",
+          "start": "2026-12-08T07:32:00Z"
+        },
+        {
+          "name": "DHUHR 12:31 (+8)|Dhuhr · Adhan 12:31 (Iqama 12:39)",
+          "start": "2026-12-08T11:31:00Z"
+        },
+        {
+          "name": "ASR 14:13 (+8)|Asr · Adhan 14:13 (Iqama 14:21)",
+          "start": "2026-12-08T13:13:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:31 (+8)|Maghrib · Adhan 16:31 (Iqama 16:39)",
+          "start": "2026-12-08T15:31:00Z"
+        },
+        {
+          "name": "ISHA 18:13 (19:00)|Isha · Adhan 18:13 (Iqama 19:00)",
+          "start": "2026-12-08T17:13:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:50 (+5)|Fajr · Adhan 06:50 (Iqama 06:55)",
+          "start": "2026-12-09T05:50:00Z"
+        },
+        {
+          "name": "SHURUQ 08:33|Shuruq (08:33)",
+          "start": "2026-12-09T07:33:00Z"
+        },
+        {
+          "name": "DHUHR 12:32 (+8)|Dhuhr · Adhan 12:32 (Iqama 12:40)",
+          "start": "2026-12-09T11:32:00Z"
+        },
+        {
+          "name": "ASR 14:13 (+8)|Asr · Adhan 14:13 (Iqama 14:21)",
+          "start": "2026-12-09T13:13:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:31 (+8)|Maghrib · Adhan 16:31 (Iqama 16:39)",
+          "start": "2026-12-09T15:31:00Z"
+        },
+        {
+          "name": "ISHA 18:13 (19:00)|Isha · Adhan 18:13 (Iqama 19:00)",
+          "start": "2026-12-09T17:13:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:51 (+5)|Fajr · Adhan 06:51 (Iqama 06:56)",
+          "start": "2026-12-10T05:51:00Z"
+        },
+        {
+          "name": "SHURUQ 08:34|Shuruq (08:34)",
+          "start": "2026-12-10T07:34:00Z"
+        },
+        {
+          "name": "DHUHR 12:32 (+8)|Dhuhr · Adhan 12:32 (Iqama 12:40)",
+          "start": "2026-12-10T11:32:00Z"
+        },
+        {
+          "name": "ASR 14:13 (+8)|Asr · Adhan 14:13 (Iqama 14:21)",
+          "start": "2026-12-10T13:13:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:31 (+8)|Maghrib · Adhan 16:31 (Iqama 16:39)",
+          "start": "2026-12-10T15:31:00Z"
+        },
+        {
+          "name": "ISHA 18:13 (19:00)|Isha · Adhan 18:13 (Iqama 19:00)",
+          "start": "2026-12-10T17:13:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:52 (+5)|Fajr · Adhan 06:52 (Iqama 06:57)",
+          "start": "2026-12-11T05:52:00Z"
+        },
+        {
+          "name": "SHURUQ 08:35|Shuruq (08:35)",
+          "start": "2026-12-11T07:35:00Z"
+        },
+        {
+          "name": "DHUHR 12:33 (+8)|Jumu'ah · Adhan 12:33 (Iqama 12:41)",
+          "start": "2026-12-11T11:33:00Z"
+        },
+        {
+          "name": "ASR 14:13 (+8)|Asr · Adhan 14:13 (Iqama 14:21)",
+          "start": "2026-12-11T13:13:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:31 (+8)|Maghrib · Adhan 16:31 (Iqama 16:39)",
+          "start": "2026-12-11T15:31:00Z"
+        },
+        {
+          "name": "ISHA 18:13 (19:00)|Isha · Adhan 18:13 (Iqama 19:00)",
+          "start": "2026-12-11T17:13:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:53 (+5)|Fajr · Adhan 06:53 (Iqama 06:58)",
+          "start": "2026-12-12T05:53:00Z"
+        },
+        {
+          "name": "SHURUQ 08:36|Shuruq (08:36)",
+          "start": "2026-12-12T07:36:00Z"
+        },
+        {
+          "name": "DHUHR 12:33 (+8)|Dhuhr · Adhan 12:33 (Iqama 12:41)",
+          "start": "2026-12-12T11:33:00Z"
+        },
+        {
+          "name": "ASR 14:13 (+8)|Asr · Adhan 14:13 (Iqama 14:21)",
+          "start": "2026-12-12T13:13:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:31 (+8)|Maghrib · Adhan 16:31 (Iqama 16:39)",
+          "start": "2026-12-12T15:31:00Z"
+        },
+        {
+          "name": "ISHA 18:13 (19:00)|Isha · Adhan 18:13 (Iqama 19:00)",
+          "start": "2026-12-12T17:13:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:54 (+5)|Fajr · Adhan 06:54 (Iqama 06:59)",
+          "start": "2026-12-13T05:54:00Z"
+        },
+        {
+          "name": "SHURUQ 08:37|Shuruq (08:37)",
+          "start": "2026-12-13T07:37:00Z"
+        },
+        {
+          "name": "DHUHR 12:34 (+8)|Dhuhr · Adhan 12:34 (Iqama 12:42)",
+          "start": "2026-12-13T11:34:00Z"
+        },
+        {
+          "name": "ASR 14:13 (+8)|Asr · Adhan 14:13 (Iqama 14:21)",
+          "start": "2026-12-13T13:13:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:31 (+8)|Maghrib · Adhan 16:31 (Iqama 16:39)",
+          "start": "2026-12-13T15:31:00Z"
+        },
+        {
+          "name": "ISHA 18:13 (19:00)|Isha · Adhan 18:13 (Iqama 19:00)",
+          "start": "2026-12-13T17:13:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:55 (+5)|Fajr · Adhan 06:55 (Iqama 07:00)",
+          "start": "2026-12-14T05:55:00Z"
+        },
+        {
+          "name": "SHURUQ 08:38|Shuruq (08:38)",
+          "start": "2026-12-14T07:38:00Z"
+        },
+        {
+          "name": "DHUHR 12:34 (+8)|Dhuhr · Adhan 12:34 (Iqama 12:42)",
+          "start": "2026-12-14T11:34:00Z"
+        },
+        {
+          "name": "ASR 14:13 (+8)|Asr · Adhan 14:13 (Iqama 14:21)",
+          "start": "2026-12-14T13:13:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:31 (+8)|Maghrib · Adhan 16:31 (Iqama 16:39)",
+          "start": "2026-12-14T15:31:00Z"
+        },
+        {
+          "name": "ISHA 18:13 (19:00)|Isha · Adhan 18:13 (Iqama 19:00)",
+          "start": "2026-12-14T17:13:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:55 (+5)|Fajr · Adhan 06:55 (Iqama 07:00)",
+          "start": "2026-12-15T05:55:00Z"
+        },
+        {
+          "name": "SHURUQ 08:39|Shuruq (08:39)",
+          "start": "2026-12-15T07:39:00Z"
+        },
+        {
+          "name": "DHUHR 12:35 (+8)|Dhuhr · Adhan 12:35 (Iqama 12:43)",
+          "start": "2026-12-15T11:35:00Z"
+        },
+        {
+          "name": "ASR 14:13 (+8)|Asr · Adhan 14:13 (Iqama 14:21)",
+          "start": "2026-12-15T13:13:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:31 (+8)|Maghrib · Adhan 16:31 (Iqama 16:39)",
+          "start": "2026-12-15T15:31:00Z"
+        },
+        {
+          "name": "ISHA 18:14 (19:00)|Isha · Adhan 18:14 (Iqama 19:00)",
+          "start": "2026-12-15T17:14:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:56 (+5)|Fajr · Adhan 06:56 (Iqama 07:01)",
+          "start": "2026-12-16T05:56:00Z"
+        },
+        {
+          "name": "SHURUQ 08:39|Shuruq (08:39)",
+          "start": "2026-12-16T07:39:00Z"
+        },
+        {
+          "name": "DHUHR 12:35 (+8)|Dhuhr · Adhan 12:35 (Iqama 12:43)",
+          "start": "2026-12-16T11:35:00Z"
+        },
+        {
+          "name": "ASR 14:13 (+8)|Asr · Adhan 14:13 (Iqama 14:21)",
+          "start": "2026-12-16T13:13:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:31 (+8)|Maghrib · Adhan 16:31 (Iqama 16:39)",
+          "start": "2026-12-16T15:31:00Z"
+        },
+        {
+          "name": "ISHA 18:14 (19:00)|Isha · Adhan 18:14 (Iqama 19:00)",
+          "start": "2026-12-16T17:14:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:57 (+5)|Fajr · Adhan 06:57 (Iqama 07:02)",
+          "start": "2026-12-17T05:57:00Z"
+        },
+        {
+          "name": "SHURUQ 08:40|Shuruq (08:40)",
+          "start": "2026-12-17T07:40:00Z"
+        },
+        {
+          "name": "DHUHR 12:35 (+8)|Dhuhr · Adhan 12:35 (Iqama 12:43)",
+          "start": "2026-12-17T11:35:00Z"
+        },
+        {
+          "name": "ASR 14:14 (+8)|Asr · Adhan 14:14 (Iqama 14:22)",
+          "start": "2026-12-17T13:14:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:31 (+8)|Maghrib · Adhan 16:31 (Iqama 16:39)",
+          "start": "2026-12-17T15:31:00Z"
+        },
+        {
+          "name": "ISHA 18:14 (19:00)|Isha · Adhan 18:14 (Iqama 19:00)",
+          "start": "2026-12-17T17:14:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:57 (+5)|Fajr · Adhan 06:57 (Iqama 07:02)",
+          "start": "2026-12-18T05:57:00Z"
+        },
+        {
+          "name": "SHURUQ 08:41|Shuruq (08:41)",
+          "start": "2026-12-18T07:41:00Z"
+        },
+        {
+          "name": "DHUHR 12:36 (+8)|Jumu'ah · Adhan 12:36 (Iqama 12:44)",
+          "start": "2026-12-18T11:36:00Z"
+        },
+        {
+          "name": "ASR 14:14 (+8)|Asr · Adhan 14:14 (Iqama 14:22)",
+          "start": "2026-12-18T13:14:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:31 (+8)|Maghrib · Adhan 16:31 (Iqama 16:39)",
+          "start": "2026-12-18T15:31:00Z"
+        },
+        {
+          "name": "ISHA 18:15 (19:00)|Isha · Adhan 18:15 (Iqama 19:00)",
+          "start": "2026-12-18T17:15:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:58 (+5)|Fajr · Adhan 06:58 (Iqama 07:03)",
+          "start": "2026-12-19T05:58:00Z"
+        },
+        {
+          "name": "SHURUQ 08:42|Shuruq (08:42)",
+          "start": "2026-12-19T07:42:00Z"
+        },
+        {
+          "name": "DHUHR 12:36 (+8)|Dhuhr · Adhan 12:36 (Iqama 12:44)",
+          "start": "2026-12-19T11:36:00Z"
+        },
+        {
+          "name": "ASR 14:15 (+8)|Asr · Adhan 14:15 (Iqama 14:23)",
+          "start": "2026-12-19T13:15:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:32 (+8)|Maghrib · Adhan 16:32 (Iqama 16:40)",
+          "start": "2026-12-19T15:32:00Z"
+        },
+        {
+          "name": "ISHA 18:15 (19:00)|Isha · Adhan 18:15 (Iqama 19:00)",
+          "start": "2026-12-19T17:15:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:58 (+5)|Fajr · Adhan 06:58 (Iqama 07:03)",
+          "start": "2026-12-20T05:58:00Z"
+        },
+        {
+          "name": "SHURUQ 08:42|Shuruq (08:42)",
+          "start": "2026-12-20T07:42:00Z"
+        },
+        {
+          "name": "DHUHR 12:37 (+8)|Dhuhr · Adhan 12:37 (Iqama 12:45)",
+          "start": "2026-12-20T11:37:00Z"
+        },
+        {
+          "name": "ASR 14:15 (+8)|Asr · Adhan 14:15 (Iqama 14:23)",
+          "start": "2026-12-20T13:15:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:32 (+8)|Maghrib · Adhan 16:32 (Iqama 16:40)",
+          "start": "2026-12-20T15:32:00Z"
+        },
+        {
+          "name": "ISHA 18:15 (19:00)|Isha · Adhan 18:15 (Iqama 19:00)",
+          "start": "2026-12-20T17:15:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:59 (+5)|Fajr · Adhan 06:59 (Iqama 07:04)",
+          "start": "2026-12-21T05:59:00Z"
+        },
+        {
+          "name": "SHURUQ 08:43|Shuruq (08:43)",
+          "start": "2026-12-21T07:43:00Z"
+        },
+        {
+          "name": "DHUHR 12:37 (+8)|Dhuhr · Adhan 12:37 (Iqama 12:45)",
+          "start": "2026-12-21T11:37:00Z"
+        },
+        {
+          "name": "ASR 14:15 (+8)|Asr · Adhan 14:15 (Iqama 14:23)",
+          "start": "2026-12-21T13:15:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:33 (+8)|Maghrib · Adhan 16:33 (Iqama 16:41)",
+          "start": "2026-12-21T15:33:00Z"
+        },
+        {
+          "name": "ISHA 18:16 (19:00)|Isha · Adhan 18:16 (Iqama 19:00)",
+          "start": "2026-12-21T17:16:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 06:59 (+5)|Fajr · Adhan 06:59 (Iqama 07:04)",
+          "start": "2026-12-22T05:59:00Z"
+        },
+        {
+          "name": "SHURUQ 08:43|Shuruq (08:43)",
+          "start": "2026-12-22T07:43:00Z"
+        },
+        {
+          "name": "DHUHR 12:38 (+8)|Dhuhr · Adhan 12:38 (Iqama 12:46)",
+          "start": "2026-12-22T11:38:00Z"
+        },
+        {
+          "name": "ASR 14:16 (+8)|Asr · Adhan 14:16 (Iqama 14:24)",
+          "start": "2026-12-22T13:16:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:33 (+8)|Maghrib · Adhan 16:33 (Iqama 16:41)",
+          "start": "2026-12-22T15:33:00Z"
+        },
+        {
+          "name": "ISHA 18:16 (19:00)|Isha · Adhan 18:16 (Iqama 19:00)",
+          "start": "2026-12-22T17:16:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 07:00 (+5)|Fajr · Adhan 07:00 (Iqama 07:05)",
+          "start": "2026-12-23T06:00:00Z"
+        },
+        {
+          "name": "SHURUQ 08:44|Shuruq (08:44)",
+          "start": "2026-12-23T07:44:00Z"
+        },
+        {
+          "name": "DHUHR 12:38 (+8)|Dhuhr · Adhan 12:38 (Iqama 12:46)",
+          "start": "2026-12-23T11:38:00Z"
+        },
+        {
+          "name": "ASR 14:17 (+8)|Asr · Adhan 14:17 (Iqama 14:25)",
+          "start": "2026-12-23T13:17:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:34 (+8)|Maghrib · Adhan 16:34 (Iqama 16:42)",
+          "start": "2026-12-23T15:34:00Z"
+        },
+        {
+          "name": "ISHA 18:17 (19:00)|Isha · Adhan 18:17 (Iqama 19:00)",
+          "start": "2026-12-23T17:17:00Z"
+        }
+      ]
+    },
+    {
+      "round": 0,
+      "name": "MOSKEE AL-FATH",
+      "place": "BOXTEL · JUMU'AH 12:23",
+      "sessions": [
+        {
+          "name": "FAJR 07:00 (+5)|Fajr · Adhan 07:00 (Iqama 07:05)",
+          "start": "2026-12-24T06:00:00Z"
+        },
+        {
+          "name": "SHURUQ 08:44|Shuruq (08:44)",
+          "start": "2026-12-24T07:44:00Z"
+        },
+        {
+          "name": "DHUHR 12:39 (+8)|Dhuhr · Adhan 12:39 (Iqama 12:47)",
+          "start": "2026-12-24T11:39:00Z"
+        },
+        {
+          "name": "ASR 14:17 (+8)|Asr · Adhan 14:17 (Iqama 14:25)",
+          "start": "2026-12-24T13:17:00Z"
+        },
+        {
+          "name": "MAGHRIB 16:34 (+8)|Maghrib · Adhan 16:34 (Iqama 16:42)",
+          "start": "2026-12-24T15:34:00Z"
+        },
+        {
+          "name": "ISHA 18:18 (19:00)|Isha · Adhan 18:18 (Iqama 19:00)",
+          "start": "2026-12-24T17:18:00Z"
+        }
+      ]
+    }
+  ],
+  "dock_title": true,
+  "columns": 3,
+  "fill_dock": true,
+  "sky_intensity": 0,
+  "library_apps": [
+    "com.google.android.youtube.tv",
+    "com.blaze.sportzfy",
+    "com.android.vending"
+  ],
+  "single_row": true,
+  "dock_band_all": true,
+  "app_library": true,
+  "library_button": true,
+  "show_library_pill": false,
+  "tile_menu": true,
+  "greeting_name": "Assalamu Alaikum",
+  "wallpaper_rotation_minutes": 5,
+  "wallpaper_order": "shuffle",
+  "wallpaper_captions": true,
+  "wallpaper_true_color": true,
+  "wallpaper_dim": 45,
+  "dock_opacity": 35,
+  "dock_even_padding": false,
+  "ambient_glow": false,
+  "header_white": true
+}

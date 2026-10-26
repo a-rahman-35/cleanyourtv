@@ -30,6 +30,15 @@
         android:layout_height="match_parent"
         android:alpha="0" />
 
+    <!-- Cinematic top shelf: darkens the edge behind the shelf and the lower half, so the text and the
+         dock stay readable over the artwork. -->
+    <View
+        android:id="@+id/heroScrim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:importantForAccessibility="no" />
+
     <!-- Race-weekend panel (a theme's race_calendar, see RaceWeekend): in the free space under the clock,
          shown only from shortly before a weekend's first session until the race is over. Updated once a
          minute with the clock, never animated. -->
@@ -63,10 +72,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:textColor="#B3FFFFFF"
+                android:textColor="#D9FFFFFF"
                 android:textSize="12sp"
                 android:fontFamily="@string/font_medium"
                 android:letterSpacing="0.22"
+                android:shadowColor="#CC000000"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="6"
                 android:textAllCaps="true" />
         </LinearLayout>
 
@@ -80,6 +93,10 @@
             android:textSize="34sp"
             android:fontFamily="@string/font_light"
             android:letterSpacing="-0.01"
+            android:shadowColor="#CC000000"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="8"
             android:includeFontPadding="false" />
 
         <TextView
@@ -88,20 +105,15 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:singleLine="true"
-            android:textColor="#99FFFFFF"
+            android:textColor="#D9FFFFFF"
             android:textSize="12sp"
             android:fontFamily="@string/font_medium"
+            android:shadowColor="#CC000000"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="6"
             android:letterSpacing="0.12" />
     </LinearLayout>
-
-    <!-- Cinematic top shelf: darkens the edge behind the shelf and the lower half, so the text and the
-         dock stay readable over the artwork. -->
-    <View
-        android:id="@+id/heroScrim"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:visibility="gone"
-        android:importantForAccessibility="no" />
 
     <!-- Top shelf: the focused dock app's name, positioned above the dock in code. -->
     <LinearLayout
@@ -120,6 +132,10 @@
             android:textSize="48sp"
             android:fontFamily="@string/font_light"
             android:letterSpacing="-0.02"
+            android:shadowColor="#CC000000"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="8"
             android:includeFontPadding="false"
             android:singleLine="true" />
 
@@ -183,10 +199,14 @@
                     android:singleLine="true"
                     android:ellipsize="end"
                     android:layout_marginStart="4dp"
-                    android:textColor="#8CFFFFFF"
+                    android:textColor="#D9FFFFFF"
                     android:textSize="12sp"
                     android:fontFamily="@string/font_medium"
                     android:letterSpacing="0.22"
+                    android:shadowColor="#CC000000"
+                    android:shadowDx="0"
+                    android:shadowDy="1"
+                    android:shadowRadius="6"
                     android:textAllCaps="true" />
 
                 <LinearLayout
@@ -205,6 +225,10 @@
                         android:textSize="52sp"
                         android:fontFamily="@string/font_light"
                         android:letterSpacing="-0.04"
+                        android:shadowColor="#CC000000"
+                        android:shadowDx="0"
+                        android:shadowDy="1"
+                        android:shadowRadius="8"
                         android:includeFontPadding="false" />
 
                     <TextClock
@@ -266,10 +290,14 @@
                             android:ellipsize="end"
                             android:format12Hour="@string/date_format_home"
                             android:format24Hour="@string/date_format_home"
-                            android:textColor="#A6FFFFFF"
+                            android:textColor="#D9FFFFFF"
                             android:textSize="14sp"
                             android:fontFamily="@string/font_regular"
                             android:letterSpacing="0.14"
+                            android:shadowColor="#CC000000"
+                            android:shadowDx="0"
+                            android:shadowDy="1"
+                            android:shadowRadius="6"
                             android:textAllCaps="true" />
 
                         <!-- Lunar date ("Lunar 13/9 · Year of the Horse"), shown when lunar_date is on. -->

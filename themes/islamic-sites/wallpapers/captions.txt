@@ -1,0 +1,14 @@
+01-sheikh-zayed-mosque.jpg	Sheikh Zayed Grand Mosque · Abu Dhabi
+02-masjid-al-haram.jpg	Masjid al-Haram · Makkah
+03-masjid-an-nabawi.jpg	Al-Masjid an-Nabawi · Madinah
+04-dome-of-the-rock.jpg	Dome of the Rock · Al-Quds
+05-blue-mosque-istanbul.jpg	Sultan Ahmed Mosque · Istanbul
+06-hassan-ii-casablanca.jpg	Hassan II Mosque · Casablanca
+07-registan-samarkand.jpg	Registan · Samarkand
+08-sultan-omar-brunei.jpg	Sultan Omar Ali Saifuddien Mosque · Brunei
+09-putra-mosque-putrajaya.jpg	Putra Mosque · Putrajaya
+10-faisal-mosque-islamabad.jpg	Faisal Mosque · Islamabad
+11-badshahi-mosque-lahore.jpg	Badshahi Mosque · Lahore
+12-alhambra-granada.jpg	The Alhambra · Granada
+13-suleymaniye-istanbul.jpg	Süleymaniye Mosque · Istanbul
+14-al-azhar-cairo.jpg	Islamic Cairo at Dusk · Egypt

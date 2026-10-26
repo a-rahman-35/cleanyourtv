@@ -30,24 +30,29 @@ final class RaceWeekend {
         final Instant start;
 
         Session(String name, Instant start) {
-            this.name = name.trim().toUpperCase(Locale.ROOT);
+            this.name = name.contains("|") ? name.trim() : name.trim().toUpperCase(Locale.ROOT);
             this.start = start;
         }
 
         boolean isRace() {
-            return name.equals("RACE");
+            return name.equalsIgnoreCase("RACE");
         }
 
         /** Roughly how long the session is live; only used to tell live from done. */
         Duration length() {
-            if (isRace()) return Duration.ofHours(2);
-            if (name.equals("SPRINT QUALI")) return Duration.ofMinutes(45);
+            if (name.contains("|")) return Duration.ofMinutes(20);
+            String upper = name.toUpperCase(Locale.ROOT);
+            if (upper.equals("RACE")) return Duration.ofHours(2);
+            if (upper.equals("SPRINT QUALI")) return Duration.ofMinutes(45);
             return Duration.ofHours(1);
         }
 
         /** The name in the countdown line: "Qualifying in 2h 14m". */
         String title(Resources res) {
-            switch (name) {
+            int bar = name.indexOf('|');
+            if (bar >= 0) return name.substring(bar + 1).trim();
+            String upper = name.toUpperCase(Locale.ROOT);
+            switch (upper) {
                 case "FP1": return res.getString(R.string.race_practice_1);
                 case "FP2": return res.getString(R.string.race_practice_2);
                 case "FP3": return res.getString(R.string.race_practice_3);
@@ -55,13 +60,16 @@ final class RaceWeekend {
                 case "SPRINT": return res.getString(R.string.race_sprint);
                 case "QUALIFYING": return res.getString(R.string.race_qualifying);
                 case "RACE": return res.getString(R.string.race_race);
-                default: return name.charAt(0) + name.substring(1).toLowerCase(Locale.ROOT);
+                default: return upper.charAt(0) + upper.substring(1).toLowerCase(Locale.ROOT);
             }
         }
 
         /** The name in the session row, kept short so a whole weekend fits on one line. */
         String shortName(Resources res) {
-            switch (name) {
+            int bar = name.indexOf('|');
+            if (bar >= 0) return name.substring(0, bar).trim();
+            String upper = name.toUpperCase(Locale.ROOT);
+            switch (upper) {
                 case "FP1": return res.getString(R.string.race_practice_1_short);
                 case "FP2": return res.getString(R.string.race_practice_2_short);
                 case "FP3": return res.getString(R.string.race_practice_3_short);
@@ -69,7 +77,7 @@ final class RaceWeekend {
                 case "SPRINT": return res.getString(R.string.race_sprint_short);
                 case "QUALIFYING": return res.getString(R.string.race_qualifying_short);
                 case "RACE": return res.getString(R.string.race_race_short);
-                default: return name;
+                default: return upper;
             }
         }
     }
@@ -130,7 +138,8 @@ final class RaceWeekend {
         for (Race race : calendar) {
             if (race.sessions.isEmpty()) continue;
             Instant opens = race.sessions.get(0).start.minus(LEAD);
-            Instant closes = race.sessions.get(race.sessions.size() - 1).start.plus(TAIL);
+            Instant closes = race.sessions.get(race.sessions.size() - 1).start.plus(
+                    race.round == 0 ? Duration.ofMinutes(20) : TAIL);
             if (now.isBefore(opens) || !now.isBefore(closes)) continue;
 
             List<Status> statuses = new ArrayList<>();

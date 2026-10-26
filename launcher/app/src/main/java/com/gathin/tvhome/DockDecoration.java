@@ -97,10 +97,13 @@ public class DockDecoration extends RecyclerView.ItemDecoration {
             RecyclerView.ViewHolder vh = parent.getChildViewHolder(child);
             View card = vh instanceof AppAdapter.Holder ? ((AppAdapter.Holder) vh).card : child.findViewById(R.id.card);
             if (card == null) continue;
-            float l = child.getLeft() + card.getLeft();
-            float t = child.getTop() + card.getTop() + child.getTranslationY();
-            float r = l + card.getWidth();
-            float b = t + card.getHeight();
+            float scale = Math.max(card.getScaleX(), card.getScaleY());
+            float extraW = card.getWidth() * (scale - 1f) * 0.5f;
+            float extraH = card.getHeight() * (scale - 1f) * 0.5f;
+            float l = child.getLeft() + card.getLeft() - extraW;
+            float t = child.getTop() + card.getTop() + child.getTranslationY() - extraH;
+            float r = child.getLeft() + card.getLeft() + card.getWidth() + extraW;
+            float b = child.getTop() + card.getTop() + child.getTranslationY() + card.getHeight() + extraH;
             cardWidth = card.getWidth();
             if (!any) {
                 rect.set(l, t, r, b);
@@ -116,7 +119,7 @@ public class DockDecoration extends RecyclerView.ItemDecoration {
         // 1dp edge line, inside the grid; the top and bottom have room.
         // 22dp at the sides (the grid's 10dp padding makes room): a focused first or last tile grows about 7dp
         // outwards and still keeps about the band's top margin from its rounded end.
-        float sidePad = 22 * density;
+        float sidePad = 24 * density;
         float side = Math.max(0f, Math.min(sidePad, Math.min(rect.left, parent.getWidth() - rect.right) - density));
         float radius = AppAdapter.cornerRadius(cardWidth, density);
         if (evenPadding) {
