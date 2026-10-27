@@ -47,7 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top|end"
         android:layout_marginEnd="56dp"
-        android:layout_marginTop="136dp"
+        android:layout_marginTop="140dp"
         android:background="@drawable/salah_panel_bg"
         android:paddingStart="14dp"
         android:paddingEnd="14dp"
@@ -320,9 +320,60 @@
                             android:letterSpacing="0.14"
                             android:textAllCaps="true"
                             android:visibility="gone" />
+
                     </LinearLayout>
                 </LinearLayout>
 
+            </LinearLayout>
+
+            <!-- World Clock & Weather info lines: positioned under the clock/date block, outside leftBlock so top buttons stay level with clock -->
+            <LinearLayout
+                android:id="@+id/weatherClockBlock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/leftBlock"
+                android:layout_alignStart="@id/leftBlock"
+                android:layout_marginTop="2dp"
+                android:orientation="vertical">
+
+                <!-- World Clock line: Chattogram & Cyberjaya times -->
+                <TextView
+                    android:id="@+id/worldClockLine"
+                    android:gravity="left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="#B3FFFFFF"
+                    android:textSize="12.5sp"
+                    android:fontFamily="@string/font_medium"
+                    android:letterSpacing="0.08"
+                    android:textAllCaps="true"
+                    android:shadowColor="#CC000000"
+                    android:shadowDx="0"
+                    android:shadowDy="1"
+                    android:shadowRadius="6"
+                    android:visibility="gone" />
+
+                <!-- Weather Info & Forecast line: temperature, conditions, rain/snow & upcoming forecast -->
+                <TextView
+                    android:id="@+id/weatherInfoLine"
+                    android:gravity="left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="#B3FFFFFF"
+                    android:textSize="12sp"
+                    android:fontFamily="@string/font_regular"
+                    android:letterSpacing="0.04"
+                    android:shadowColor="#CC000000"
+                    android:shadowDx="0"
+                    android:shadowDy="1"
+                    android:shadowRadius="6"
+                    android:visibility="gone" />
             </LinearLayout>
 
             <!-- Shown only when show_stats is on. Outside leftBlock, so the top buttons stay level with the clock
@@ -330,7 +381,7 @@
             <TextView
                 android:id="@+id/stats"
                 android:layout_width="wrap_content"
-                android:layout_below="@id/leftBlock"
+                android:layout_below="@id/weatherClockBlock"
                 android:layout_alignStart="@id/leftBlock"
                 android:gravity="left"
                 android:layout_height="wrap_content"

@@ -193,6 +193,8 @@ public class MainActivity extends Activity implements AppAdapter.TileListener {
     private List<RaceWeekend.Race> raceCalendar;
     private View racePanel;
     private TextView raceKicker, raceHeadline, raceSessions;
+    private TextView worldClockLine;
+    private TextView weatherInfoLine;
     /** config.xml show_stats, overridable by a theme. Off: the line is gone and nothing is read. */
     private boolean showStats;
     /** config.xml inputs_connected_only: the Inputs menu lists only connected inputs, the rest behind "More inputs". */
@@ -374,6 +376,8 @@ public class MainActivity extends Activity implements AppAdapter.TileListener {
         public void run() {
             updateGreeting();
             updateRace();
+            updateWorldClock();
+            updateWeatherInfo();
             // The pill follows the network callbacks and each return to Home; only the diya's flame follows the
             // signal level, so only it needs this minute's binder calls (about 7 ms on the UI thread).
             if (festive) updateWifiLabel();
@@ -496,6 +500,8 @@ public class MainActivity extends Activity implements AppAdapter.TileListener {
         raceKicker = findViewById(R.id.raceKicker);
         raceHeadline = findViewById(R.id.raceHeadline);
         raceSessions = findViewById(R.id.raceSessions);
+        worldClockLine = findViewById(R.id.worldClockLine);
+        weatherInfoLine = findViewById(R.id.weatherInfoLine);
         showStats = cfg.showStats;
         inputsConnectedOnly = cfg.inputsConnectedOnly;
         shamsi = cfg.shamsiDate;
@@ -974,6 +980,8 @@ public class MainActivity extends Activity implements AppAdapter.TileListener {
         if (openLiveTvAfterBoot()) return;
         updateGreeting();
         updateRace();
+        updateWorldClock();
+        updateWeatherInfo();
         // The network and Inputs pills keep their state while Home is in the background, and callbacks update them
         // when the network or the inputs change, so this refresh only catches anything missed. Its binder calls
         // (about 7 ms on a TCL C755, most of it WifiManager.getConnectionInfo) would hold up the first frame back
@@ -2610,6 +2618,85 @@ public class MainActivity extends Activity implements AppAdapter.TileListener {
         }
         raceSessions.setText(row);
         racePanel.setVisibility(View.VISIBLE);
+    }
+
+    private void updateWorldClock() {
+        if (worldClockLine == null) return;
+        java.time.Instant now = java.time.Instant.now();
+        java.time.format.DateTimeFormatter fmt = java.time.format.DateTimeFormatter.ofPattern("HH:mm");
+        String chg = now.atZone(java.time.ZoneId.of("Asia/Dhaka")).format(fmt);
+        String cbj = now.atZone(java.time.ZoneId.of("Asia/Kuala_Lumpur")).format(fmt);
+        worldClockLine.setText("CHATTOGRAM " + chg + "   \u00B7   CYBERJAYA " + cbj);
+        worldClockLine.setVisibility(View.VISIBLE);
+    }
+
+    private String lastWeatherText = null;
+    private long lastWeatherRead = 0;
+
+    private void updateWeatherInfo() {
+        if (weatherInfoLine == null) return;
+        long now = System.currentTimeMillis();
+        if (lastWeatherText != null && now - lastWeatherRead < 900_000) {
+            weatherInfoLine.setText(lastWeatherText);
+            weatherInfoLine.setVisibility(View.VISIBLE);
+            return;
+        }
+        new Thread(() -> {
+            try {
+                java.net.URL url = new java.net.URL("https://api.open-meteo.com/v1/forecast?latitude=51.5908&longitude=5.3326&current=temperature_2m,relative_humidity_2m,apparent_temperature,weather_code,is_day,wind_speed_10m&daily=weather_code,temperature_2m_max,temperature_2m_min&timezone=auto&forecast_days=3");
+                java.net.HttpURLConnection conn = (java.net.HttpURLConnection) url.openConnection();
+                conn.setConnectTimeout(5000);
+                conn.setReadTimeout(5000);
+                conn.setRequestProperty("User-Agent", "CleanYourTV/1.0");
+                java.io.InputStream in = conn.getInputStream();
+                java.io.ByteArrayOutputStream out = new java.io.ByteArrayOutputStream();
+                byte[] buf = new byte[1024];
+                int n;
+                while ((n = in.read(buf)) != -1) out.write(buf, 0, n);
+                in.close();
+                org.json.JSONObject data = new org.json.JSONObject(out.toString("UTF-8"));
+                org.json.JSONObject curr = data.getJSONObject("current");
+                int temp = (int) Math.round(curr.getDouble("temperature_2m"));
+                int code = curr.getInt("weather_code");
+                boolean day = curr.getInt("is_day") == 1;
+                int humidity = curr.getInt("relative_humidity_2m");
+                int wind = (int) Math.round(curr.getDouble("wind_speed_10m"));
+                String sky;
+                switch (code) {
+                    case 0: sky = day ? "Sunny" : "Clear"; break;
+                    case 1: sky = day ? "Mostly sunny" : "Mostly clear"; break;
+                    case 2: sky = "Partly cloudy"; break;
+                    case 3: sky = "Overcast"; break;
+                    case 45: case 48: sky = "Fog"; break;
+                    case 51: case 53: case 55: sky = "Drizzle"; break;
+                    case 56: case 57: sky = "Freezing drizzle"; break;
+                    case 61: sky = "Light rain"; break;
+                    case 63: sky = "Rain"; break;
+                    case 65: sky = "Heavy rain"; break;
+                    case 66: case 67: sky = "Freezing rain"; break;
+                    case 71: sky = "Light snow"; break;
+                    case 73: sky = "Snow"; break;
+                    case 75: sky = "Heavy snow"; break;
+                    case 80: case 81: case 82: sky = "Showers"; break;
+                    case 85: case 86: sky = "Snow showers"; break;
+                    default: sky = code >= 95 ? "Thunderstorm" : "Cloudy"; break;
+                }
+                org.json.JSONObject daily = data.getJSONObject("daily");
+                int d1Max = (int) Math.round(daily.getJSONArray("temperature_2m_max").getDouble(1));
+                int d1Min = (int) Math.round(daily.getJSONArray("temperature_2m_min").getDouble(1));
+                int d1Code = daily.getJSONArray("weather_code").getInt(1);
+                String d1Sky = (d1Code == 61 || d1Code == 63 || d1Code == 65 || (d1Code >= 80 && d1Code <= 82)) ? "Rain" : (d1Code >= 71 && d1Code <= 77 ? "Snow" : (d1Code == 0 || d1Code == 1 ? "Clear" : "Cloudy"));
+                
+                String line = temp + "\u00B0C " + sky + "  \u00B7  " + humidity + "% hum  \u00B7  " + wind + " km/h  \u00B7  Tomorrow: " + d1Max + "\u00B0/" + d1Min + "\u00B0 " + d1Sky;
+                handler.post(() -> {
+                    lastWeatherText = line;
+                    lastWeatherRead = System.currentTimeMillis();
+                    weatherInfoLine.setText(line);
+                    weatherInfoLine.setVisibility(View.VISIBLE);
+                });
+            } catch (Exception ignored) {
+            }
+        }).start();
     }
 
     private void refreshPillsAfterNextDraw() {
