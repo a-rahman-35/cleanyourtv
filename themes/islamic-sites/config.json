@@ -6,7 +6,7 @@
   ],
   "date_below_clock": true,
   "top_bar_apps": [
-    "io.github.savioronezero.worldclock",
+    "org.droidtv.contentexplorer",
     "io.github.justinnewman.bluetoothtoggle",
     "io.github.maxhayim.brightness",
     "io.github.luyzfernando08.sleeptimer"
@@ -15,7 +15,6 @@
     "org.droidtv.playtv",
     "org.droidtv.eum",
     "org.droidtv.channels",
-    "org.droidtv.contentexplorer",
     "org.droidtv.philipstvdrawer",
     "org.droidtv.settings",
     "io.github.savioronezero.worldclock",

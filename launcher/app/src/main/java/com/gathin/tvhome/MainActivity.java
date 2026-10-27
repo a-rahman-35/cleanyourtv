@@ -2362,8 +2362,13 @@ public class MainActivity extends Activity implements AppAdapter.TileListener {
             CharSequence label;
             try {
                 ApplicationInfo info = pm.getApplicationInfo(pkg, 0);
-                logo = info.loadIcon(pm);
-                label = info.loadLabel(pm);
+                if ("org.droidtv.contentexplorer".equals(pkg)) {
+                    logo = getDrawable(R.drawable.ic_usb);
+                    label = "USB Media";
+                } else {
+                    logo = info.loadIcon(pm);
+                    label = info.loadLabel(pm);
+                }
             } catch (PackageManager.NameNotFoundException e) {
                 continue;
             }
@@ -2372,7 +2377,9 @@ public class MainActivity extends Activity implements AppAdapter.TileListener {
             button.setId(View.generateViewId());
             logo.setBounds(0, 0, size, size);
             button.setCompoundDrawablesRelative(logo, null, null, null);
-            button.setCompoundDrawableTintList(null);
+            if (!"org.droidtv.contentexplorer".equals(pkg)) {
+                button.setCompoundDrawableTintList(null);
+            }
             button.setContentDescription(label);
             Intent target = launch;
             button.setOnClickListener(v -> open(new Intent(target)));
