@@ -210,23 +210,25 @@ final class WallpaperPlayer {
     private static TextView makeCaption(Context context, FrameLayout root) {
         float dp = context.getResources().getDisplayMetrics().density;
         TextView text = new TextView(context);
-        text.setTextSize(TypedValue.COMPLEX_UNIT_SP, 15);
+        text.setTextSize(TypedValue.COMPLEX_UNIT_SP, 13.5f);
         text.setTextColor(0xD9FFFFFF);
         text.setShadowLayer(6 * dp, 0, dp, 0xCC000000);
         text.setSingleLine(true);
         text.setEllipsize(TextUtils.TruncateAt.END);
-        text.setMaxWidth(Math.round(520 * dp));
+        text.setGravity(Gravity.END);
+        text.setLetterSpacing(0.04f);
+        text.setMaxWidth(Math.round(480 * dp));
         text.setFocusable(false);
         text.setAlpha(0f);
         try {
-            text.setTypeface(UiFont.get(context, R.string.font_regular));
+            text.setTypeface(UiFont.get(context, R.string.font_medium));
         } catch (Exception ignored) {
             // the system font is fine
         }
         FrameLayout.LayoutParams params = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,
                 ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.TOP | Gravity.END);
-        params.topMargin = Math.round(114 * dp);
-        params.setMarginEnd(Math.round(62 * dp));
+        params.topMargin = Math.round(132 * dp);
+        params.setMarginEnd(Math.round(56 * dp));
         root.addView(text, params);
         return text;
     }

@@ -47,7 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top|end"
         android:layout_marginEnd="56dp"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="170dp"
         android:background="@drawable/salah_panel_bg"
         android:paddingStart="14dp"
         android:paddingEnd="14dp"
