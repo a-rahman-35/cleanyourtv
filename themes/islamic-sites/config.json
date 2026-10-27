@@ -4,13 +4,24 @@
     "com.blaze.sportzfy",
     "com.android.vending"
   ],
+  "date_below_clock": true,
+  "top_bar_apps": [
+    "io.github.savioronezero.worldclock",
+    "io.github.justinnewman.bluetoothtoggle",
+    "io.github.maxhayim.brightness",
+    "io.github.luyzfernando08.sleeptimer"
+  ],
   "hidden_apps": [
     "org.droidtv.playtv",
     "org.droidtv.eum",
     "org.droidtv.channels",
     "org.droidtv.contentexplorer",
     "org.droidtv.philipstvdrawer",
-    "org.droidtv.settings"
+    "org.droidtv.settings",
+    "io.github.savioronezero.worldclock",
+    "io.github.justinnewman.bluetoothtoggle",
+    "io.github.maxhayim.brightness",
+    "io.github.luyzfernando08.sleeptimer"
   ],
   "live_tv_package": "org.droidtv.playtv",
   "background_color": "#05070C",
@@ -1937,6 +1948,44 @@
   "wallpaper_captions": true,
   "wallpaper_true_color": true,
   "wallpaper_dim": 45,
+  "wallpaper_moods": {
+    "morning": [
+      "03-masjid-an-nabawi.jpg",
+      "04-dome-of-the-rock.jpg",
+      "07-registan-samarkand.jpg",
+      "09-putra-mosque-putrajaya.jpg",
+      "10-faisal-mosque-islamabad.jpg",
+      "16-sixty-dome-mosque-bagerhat.jpg",
+      "17-baitul-mukarram-dhaka.jpg",
+      "18-tara-masjid-dhaka.jpg",
+      "19-lalbagh-fort-dhaka.jpg"
+    ],
+    "evening": [
+      "05-blue-mosque-istanbul.jpg",
+      "06-hassan-ii-casablanca.jpg",
+      "08-sultan-omar-brunei.jpg",
+      "12-alhambra-granada.jpg",
+      "13-suleymaniye-istanbul.jpg",
+      "14-al-azhar-cairo.jpg",
+      "15-taj-mahal-agra.jpg",
+      "16-sixty-dome-mosque-bagerhat.jpg",
+      "19-lalbagh-fort-dhaka.jpg"
+    ],
+    "night": [
+      "01-sheikh-zayed-mosque.jpg",
+      "02-masjid-al-haram.jpg",
+      "05-blue-mosque-istanbul.jpg",
+      "08-sultan-omar-brunei.jpg",
+      "11-badshahi-mosque-lahore.jpg",
+      "15-taj-mahal-agra.jpg"
+    ]
+  },
+  "home_idle_clock_minutes": 10,
+  "clock_wallpaper": true,
+  "clock_wallpaper_dim": 50,
+  "wifi_status_color": true,
+  "wifi_status_warnings": true,
+  "inputs_connected_only": true,
   "dock_opacity": 35,
   "dock_even_padding": false,
   "ambient_glow": true,

@@ -17,12 +17,20 @@ import java.util.Set;
 /** Clock calculations and small list edits: no Android objects, fixed offsets or background work. */
 final class ClockModel {
     static final String LOCAL = "@local";
+    static final String CHATTOGRAM = "Asia/Chattogram";
+    static final String CYBERJAYA = "Asia/Cyberjaya";
     static final int LIMIT = 6;
     static final List<String> DEFAULTS = Collections.unmodifiableList(
-            Arrays.asList(LOCAL, "Europe/London", "Australia/Sydney"));
+            Arrays.asList(LOCAL, CHATTOGRAM, CYBERJAYA));
+
+    private static String zoneId(String id) {
+        if (CHATTOGRAM.equals(id)) return "Asia/Dhaka";
+        if (CYBERJAYA.equals(id)) return "Asia/Kuala_Lumpur";
+        return id;
+    }
 
     static boolean valid(String id) {
-        if (LOCAL.equals(id)) return true;
+        if (LOCAL.equals(id) || CHATTOGRAM.equals(id) || CYBERJAYA.equals(id)) return true;
         if (id == null || id.length() > 100) return false;
         // Only platform-named zones: malformed IDs cannot silently become GMT as with TimeZone.getTimeZone.
         return "UTC".equals(id) || ZoneId.getAvailableZoneIds().contains(id);
@@ -100,6 +108,7 @@ final class ClockModel {
     static List<String> catalogue() {
         Set<String> found = new HashSet<>();
         found.add(LOCAL); found.add("UTC");
+        found.add(CHATTOGRAM); found.add(CYBERJAYA);
         Set<String> available = ZoneId.getAvailableZoneIds();
         for (String id : available) {
             if (id.equals("Asia/Katmandu") && available.contains("Asia/Kathmandu")) continue;
@@ -127,7 +136,7 @@ final class ClockModel {
     }
 
     static Reading at(String id, Instant instant, ZoneId local, boolean twentyFour, Locale locale) {
-        ZonedDateTime time = instant.atZone(LOCAL.equals(id) ? local : ZoneId.of(id));
+        ZonedDateTime time = instant.atZone(LOCAL.equals(id) ? local : ZoneId.of(zoneId(id)));
         String offset = time.getOffset().getId();
         return new Reading(time.format(DateTimeFormatter.ofPattern(twentyFour ? "HH:mm" : "h:mm", locale)),
                 twentyFour ? "" : time.format(DateTimeFormatter.ofPattern("a", locale)),

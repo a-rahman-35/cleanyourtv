@@ -65,8 +65,11 @@ public final class WeatherActivity extends Activity {
         changeCity.setOnClickListener(v -> pickCity());
         changeCity.requestFocus();
         if (!place.contains("name")) {
-            message.setText(R.string.pick_first);
-            pickCity();
+            place.edit()
+                    .putString("name", "Boxtel")
+                    .putLong("lat", Double.doubleToRawLongBits(51.5908))
+                    .putLong("lon", Double.doubleToRawLongBits(5.3326))
+                    .apply();
         }
     }
 

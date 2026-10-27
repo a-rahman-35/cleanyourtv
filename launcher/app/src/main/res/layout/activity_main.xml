@@ -39,20 +39,20 @@
         android:visibility="gone"
         android:importantForAccessibility="no" />
 
-    <!-- Race-weekend panel / Prayer schedule panel (a theme's race_calendar, see RaceWeekend): in the free space under the clock,
-         styled as a frosted glass docker capsule to ensure high-contrast readability over wallpapers. Updated once a minute. -->
+    <!-- Race-weekend panel / Prayer schedule panel (a theme's race_calendar, see RaceWeekend): docked vertically on the
+         right edge beneath the wallpaper caption, styled as a subtle translucent glass card. Updated once a minute. -->
     <LinearLayout
         android:id="@+id/racePanel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="top|left"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="142dp"
+        android:layout_gravity="top|end"
+        android:layout_marginEnd="56dp"
+        android:layout_marginTop="136dp"
         android:background="@drawable/salah_panel_bg"
-        android:paddingStart="20dp"
-        android:paddingEnd="20dp"
-        android:paddingTop="11dp"
-        android:paddingBottom="11dp"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
         android:orientation="vertical"
         android:focusable="false"
         android:importantForAccessibility="no"
@@ -67,8 +67,8 @@
             <!-- Accent indicator bar. -->
             <View
                 android:layout_width="3dp"
-                android:layout_height="12dp"
-                android:layout_marginEnd="9dp"
+                android:layout_height="10dp"
+                android:layout_marginEnd="8dp"
                 android:background="@drawable/race_bar" />
 
             <TextView
@@ -76,10 +76,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:textColor="#E6FFFFFF"
-                android:textSize="12sp"
+                android:textColor="#D9FFFFFF"
+                android:textSize="10sp"
                 android:fontFamily="@string/font_medium"
-                android:letterSpacing="0.18"
+                android:letterSpacing="0.14"
                 android:shadowColor="#B3000000"
                 android:shadowDx="0"
                 android:shadowDy="1"
@@ -91,12 +91,12 @@
             android:id="@+id/raceHeadline"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
+            android:layout_marginTop="3dp"
             android:singleLine="true"
             android:textColor="#FFFFFFFF"
-            android:textSize="17sp"
-            android:fontFamily="@string/font_regular"
-            android:letterSpacing="0.02"
+            android:textSize="12.5sp"
+            android:fontFamily="@string/font_medium"
+            android:letterSpacing="0.01"
             android:shadowColor="#B3000000"
             android:shadowDx="0"
             android:shadowDy="1"
@@ -108,15 +108,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
-            android:singleLine="true"
+            android:singleLine="false"
+            android:lineSpacingExtra="3dp"
             android:textColor="#E6FFFFFF"
-            android:textSize="13sp"
+            android:textSize="11.5sp"
             android:fontFamily="@string/font_medium"
             android:shadowColor="#B3000000"
             android:shadowDx="0"
             android:shadowDy="1"
             android:shadowRadius="4"
-            android:letterSpacing="0.08" />
+            android:letterSpacing="0.05" />
     </LinearLayout>
 
     <!-- Top shelf: the focused dock app's name, positioned above the dock in code. -->

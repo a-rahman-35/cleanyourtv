@@ -14,7 +14,7 @@ public class ClockModelTest {
         return ClockModel.at(id, Instant.parse(instant), ZoneId.of(local), true, Locale.US);
     }
     @Test public void firstRunUsesChosenCities() {
-        assertEquals(Arrays.asList("@local", "Europe/London", "Australia/Sydney"), ClockModel.restore(null));
+        assertEquals(Arrays.asList("@local", "Asia/Chattogram", "Asia/Cyberjaya"), ClockModel.restore(null));
     }
     @Test public void winterUsesSouthernSummerOffset() {
         assertEquals("12:00", read("Europe/London", "2026-01-15T12:00:00Z", "America/New_York").time);
@@ -86,12 +86,12 @@ public class ClockModelTest {
         assertEquals(ids,ClockModel.add(ids,"UTC"));
     }
     @Test public void replacementCannotCreateDuplicate() {
-        assertEquals(ClockModel.DEFAULTS,ClockModel.replace(ClockModel.DEFAULTS,1,"Australia/Sydney"));
-        assertEquals(Arrays.asList("@local","UTC","Australia/Sydney"),ClockModel.replace(ClockModel.DEFAULTS,1,"UTC"));
+        assertEquals(ClockModel.DEFAULTS,ClockModel.replace(ClockModel.DEFAULTS,1,"Asia/Cyberjaya"));
+        assertEquals(Arrays.asList("@local","UTC","Asia/Cyberjaya"),ClockModel.replace(ClockModel.DEFAULTS,1,"UTC"));
     }
     @Test public void lastClockCannotBeRemoved() {
         assertEquals(Collections.singletonList("UTC"),ClockModel.remove(Collections.singletonList("UTC"),0));
-        assertEquals(Arrays.asList("@local","Australia/Sydney"),ClockModel.remove(ClockModel.DEFAULTS,1));
+        assertEquals(Arrays.asList("@local","Asia/Cyberjaya"),ClockModel.remove(ClockModel.DEFAULTS,1));
     }
     @Test public void movingAcrossRowsKeepsEveryClockAndOrder() {
         List<String> ids=Arrays.asList("UTC","Asia/Tokyo","Europe/London","Australia/Sydney");
@@ -110,9 +110,9 @@ public class ClockModelTest {
                 Collections.singletonList("Asia/Katmandu"), "Kathmandu", Collections.emptyList(), -1));
     }
     @Test public void pickerExcludesExistingExceptTheCityBeingReplaced() {
-        List<String> all=Arrays.asList("Europe/London","Australia/Sydney","UTC");
+        List<String> all=Arrays.asList("Asia/Chattogram","Asia/Cyberjaya","UTC");
         assertEquals(Collections.singletonList("UTC"),ClockModel.search(all,"",ClockModel.DEFAULTS,-1));
-        assertEquals(Arrays.asList("Europe/London","UTC"),ClockModel.search(all,"",ClockModel.DEFAULTS,1));
+        assertEquals(Arrays.asList("Asia/Chattogram","UTC"),ClockModel.search(all,"",ClockModel.DEFAULTS,1));
     }
     @Test public void refreshDelayCannotSpinAtMinuteBoundaryOrAfterClockAdjustment() {
         assertEquals(60_000,ClockModel.nextMinute(120_000));

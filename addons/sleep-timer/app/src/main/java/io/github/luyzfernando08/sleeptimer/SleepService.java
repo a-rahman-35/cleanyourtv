@@ -17,7 +17,16 @@ public class SleepService extends AccessibilityService {
 
     static boolean sleep() {
         SleepService service = instance;
-        return service != null && service.performGlobalAction(GLOBAL_ACTION_LOCK_SCREEN);
+        if (service == null) return false;
+        if (android.os.Build.VERSION.SDK_INT >= 28 && service.performGlobalAction(GLOBAL_ACTION_LOCK_SCREEN)) {
+            return true;
+        }
+        try {
+            Runtime.getRuntime().exec(new String[]{"input", "keyevent", "223"});
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
     }
 
     @Override

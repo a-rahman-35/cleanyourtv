@@ -12,3 +12,8 @@
 12-alhambra-granada.jpg	The Alhambra · Granada
 13-suleymaniye-istanbul.jpg	Süleymaniye Mosque · Istanbul
 14-al-azhar-cairo.jpg	Islamic Cairo at Dusk · Egypt
+15-taj-mahal-agra.jpg	Taj Mahal at Dusk · Agra
+16-sixty-dome-mosque-bagerhat.jpg	Sixty Dome Mosque · Bagerhat
+17-baitul-mukarram-dhaka.jpg	Baitul Mukarram National Mosque · Dhaka
+18-tara-masjid-dhaka.jpg	Tara Masjid (Star Mosque) · Dhaka
+19-lalbagh-fort-dhaka.jpg	Lalbagh Fort Mosque · Dhaka

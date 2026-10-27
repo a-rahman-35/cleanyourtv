@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Dark translucent base (75% opacity) ensuring high contrast and 10-foot TV readability over any wallpaper -->
+    <!-- Subtle translucent base (~35% opacity) matching the dock glass so wallpaper shines through -->
     <item>
         <shape android:shape="rectangle">
-            <solid android:color="#BF080D17" />
-            <corners android:radius="16dp" />
+            <solid android:color="#59080D17" />
+            <corners android:radius="14dp" />
         </shape>
     </item>
-    <!-- Frosted glass sheen and 1dp crisp translucent border matching dock glass aesthetics -->
+    <!-- Soft glass sheen and whisper-thin 1dp translucent border -->
     <item>
         <shape android:shape="rectangle">
             <gradient
                 android:angle="270"
-                android:startColor="#2BFFFFFF"
-                android:endColor="#0DFFFFFF" />
+                android:startColor="#1AFFFFFF"
+                android:endColor="#08FFFFFF" />
             <stroke
                 android:width="1dp"
-                android:color="#38FFFFFF" />
-            <corners android:radius="16dp" />
+                android:color="#24FFFFFF" />
+            <corners android:radius="14dp" />
         </shape>
     </item>
 </layer-list>

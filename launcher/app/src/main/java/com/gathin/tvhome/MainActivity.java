@@ -2553,19 +2553,28 @@ public class MainActivity extends Activity implements AppAdapter.TileListener {
         View bar = ((ViewGroup) raceKicker.getParent()).getChildAt(0);
         if (bar != null && bar.getBackground() != null) bar.getBackground().setTint(accent);
         raceKicker.setText(race.round == 0
-                ? (race.place.isEmpty() ? race.shortName() : race.shortName() + " · " + race.place)
+                ? race.shortName()
                 : (race.place.isEmpty()
                         ? getString(R.string.race_kicker_no_place, race.round, race.shortName())
                         : getString(R.string.race_kicker, race.round, race.shortName(), race.place)));
 
         if (s.live != null) {
-            SpannableString live = new SpannableString("\u25CF  " + getString(R.string.race_live, s.live.title(getResources())));
+            String liveLabel = race.round == 0 ? s.live.shortName(getResources()) : s.live.title(getResources());
+            SpannableString live = new SpannableString("\u25CF  " + getString(R.string.race_live, liveLabel));
             live.setSpan(new android.text.style.ForegroundColorSpan(accent), 0, 1, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
             raceHeadline.setText(live);
         } else if (s.next != null) {
             String in = RaceWeekend.countdown(getResources(), s.untilNext);
-            raceHeadline.setText(s.next.isRace() ? getString(R.string.race_lights_out, in)
-                    : getString(R.string.race_next, s.next.title(getResources()), in));
+            if (race.round == 0) {
+                String prayerName = s.next.shortName(getResources()).split(" ")[0];
+                if (prayerName.length() > 1) {
+                    prayerName = prayerName.charAt(0) + prayerName.substring(1).toLowerCase(Locale.ROOT);
+                }
+                raceHeadline.setText(getString(R.string.race_next, prayerName, in));
+            } else {
+                raceHeadline.setText(s.next.isRace() ? getString(R.string.race_lights_out, in)
+                        : getString(R.string.race_next, s.next.title(getResources()), in));
+            }
         } else {
             raceHeadline.setText(R.string.race_finished);
         }
@@ -2577,7 +2586,7 @@ public class MainActivity extends Activity implements AppAdapter.TileListener {
         android.text.SpannableStringBuilder row = new android.text.SpannableStringBuilder();
         for (int i = 0; i < race.sessions.size(); i++) {
             RaceWeekend.Session session = race.sessions.get(i);
-            if (i > 0) row.append(race.round == 0 ? "   ·   " : "     ");
+            if (i > 0) row.append(race.round == 0 ? "\n" : "     ");
             int start = row.length();
             row.append(session.shortName(getResources()));
             if (!session.name.contains("|")) {
@@ -2585,12 +2594,19 @@ public class MainActivity extends Activity implements AppAdapter.TileListener {
             }
             int color;
             switch (s.statuses.get(i)) {
-                case DONE: color = race.round == 0 ? 0x8CFFFFFF : 0x47FFFFFF; break;
+                case DONE: color = race.round == 0 ? 0x73FFFFFF : 0x47FFFFFF; break;
                 case LIVE: color = accent; break;
                 case NEXT: color = race.round == 0 ? accent : 0xFFFFFFFF; break;
-                default: color = 0xE6FFFFFF;
+                default: color = 0xD9FFFFFF;
             }
             row.setSpan(new android.text.style.ForegroundColorSpan(color), start, row.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        }
+        if (race.round == 0 && !race.place.isEmpty()) {
+            int jIdx = race.place.indexOf("JUMU");
+            String jumuah = jIdx >= 0 ? race.place.substring(jIdx).trim() : race.place;
+            int start = row.length();
+            row.append("\n").append(jumuah);
+            row.setSpan(new android.text.style.ForegroundColorSpan(0x99FFFFFF), start, row.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         }
         raceSessions.setText(row);
         racePanel.setVisibility(View.VISIBLE);
