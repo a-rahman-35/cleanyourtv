@@ -1939,6 +1939,6 @@
   "wallpaper_dim": 45,
   "dock_opacity": 35,
   "dock_even_padding": false,
-  "ambient_glow": false,
+  "ambient_glow": true,
   "header_white": true
 }

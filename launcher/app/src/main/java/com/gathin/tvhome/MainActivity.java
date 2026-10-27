@@ -2577,7 +2577,7 @@ public class MainActivity extends Activity implements AppAdapter.TileListener {
         android.text.SpannableStringBuilder row = new android.text.SpannableStringBuilder();
         for (int i = 0; i < race.sessions.size(); i++) {
             RaceWeekend.Session session = race.sessions.get(i);
-            if (i > 0) row.append("     ");
+            if (i > 0) row.append(race.round == 0 ? "   ·   " : "     ");
             int start = row.length();
             row.append(session.shortName(getResources()));
             if (!session.name.contains("|")) {
@@ -2585,10 +2585,10 @@ public class MainActivity extends Activity implements AppAdapter.TileListener {
             }
             int color;
             switch (s.statuses.get(i)) {
-                case DONE: color = 0x47FFFFFF; break;
+                case DONE: color = race.round == 0 ? 0x8CFFFFFF : 0x47FFFFFF; break;
                 case LIVE: color = accent; break;
-                case NEXT: color = 0xFFFFFFFF; break;
-                default: color = 0x99FFFFFF;
+                case NEXT: color = race.round == 0 ? accent : 0xFFFFFFFF; break;
+                default: color = 0xE6FFFFFF;
             }
             row.setSpan(new android.text.style.ForegroundColorSpan(color), start, row.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         }
